@@ -11,7 +11,7 @@ icon: icon-html
 Here's some dummy text let's see how this works
 
 
-<!--{% include plotly1.html %} -->
+{% include plotly1.html %}
 
 
 
