@@ -42,7 +42,7 @@ def google_results(query, **kwargs):
                     developerKey="API KEY")
     result = service.cse().list(
             q=query,
-            cx='API KEY, **kwargs
+            cx='API KEY', **kwargs
         ).execute()
         return result["items"]
 ```
