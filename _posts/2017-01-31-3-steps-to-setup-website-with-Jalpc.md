@@ -23,14 +23,16 @@ from pandas import DataFrame
 ```
 
 2.
-`url_list = []
+``` python
+url_list = []
 url_list_all_cities = []
 list_of_cities = ['nashville', 'dallas']
 list_of_cities_concat = [item.replace(' ', '') for item in list_of_cities]
-`
+```
 
 
-`def google_results(query, **kwargs):
+``` python
+def google_results(query, **kwargs):
     service = build("customsearch", "v1",
                     developerKey="API KEY")
     result = service.cse().list(
@@ -38,16 +40,17 @@ list_of_cities_concat = [item.replace(' ', '') for item in list_of_cities]
             cx='API KEY, **kwargs
         ).execute()
         return result["items"]
-`
+```
 
-`for item in list_of_cities:
+``` python
+for item in list_of_cities:
     for url in google_results("%s climate action plan filetype:pdf" % item):
         url_list.append(url)
         if len(url_list) >=4:
             url_list_all_cities.append(url_list)
             url_list = []
             break
-            `
+```
 
 
 
