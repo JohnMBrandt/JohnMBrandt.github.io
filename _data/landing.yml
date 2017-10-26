@@ -26,7 +26,7 @@
 
 - id: blog
   i18n: nav.blog
-  name: Blog
+  name: Tutorials
   tpl: blog.html
   page: blog/
   css: testimonials navy-section
