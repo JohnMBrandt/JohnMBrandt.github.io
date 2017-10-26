@@ -6,11 +6,11 @@
 - name: Python
   href: /python/
 
-- name: Linux
-  href: /linux/
+- name: R
+  href: /r/
 
-- name: HTML
-  href: /html/
+- name: Javascript
+  href: /javascript/
 
 - name: Database
   href: /database/
