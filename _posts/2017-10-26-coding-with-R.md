@@ -11,8 +11,9 @@ icon: icon-html
 Here's some dummy text let's see how this works
 
 
-{% include plotly1.html %}
-
+{% raw %}
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://rpubs.com/datadrivenyale/plotly1"></iframe>
+{% endraw %}
 
 
 Here's some dummy text
