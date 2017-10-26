@@ -8,92 +8,27 @@ categories: [R]
 tags: [ggplot2, R]
 icon: icon-html
 ---
+Here's some dummy text<br>
+to <br>
+see<br>
+how<br>
+it<br>
+works<br>
+just<br>
+a<br>
+test<br>
 
 {% include plotly1.html %}
 
 
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-<br><br>
-<br><br>
-
-<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Test
+Here's some dummy text
+to <br>
+see<br>
+how<br>
+it<br>
+works<br><br>
+just<br>
+a<br>
+test<br>
+<br>
