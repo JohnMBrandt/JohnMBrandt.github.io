@@ -42,7 +42,7 @@ def google_results(query, **kwargs):
         return result["items"]
 ```
 
-4. 
+4.
 ``` python
 for item in list_of_cities:
     for url in google_results("%s climate action plan filetype:pdf" % item):
@@ -56,8 +56,5 @@ for item in list_of_cities:
 
 5. Enter into repository directory and edit following file list:
 
-3. Push changes to your github repository and view your website, done!
+6. Push changes to your github repository and view your website, done!
 
-From now on, you can post your blog to this website by creating md files at `post/` directory and push it to GitHub, you can clear files at this directory before you post blogs.
-
-If you like this repository, I appreciate you star this repository. Please don't hesitate to mail me or post issues on GitHub if you have any questions. Hope you have a happy blog time!😊
