@@ -13,7 +13,7 @@ Let's learn how to do this.
 
 1. 
 
-{% highlight python %}
+{% highlight ruby %}
 from google import search
 import requests
 import re
