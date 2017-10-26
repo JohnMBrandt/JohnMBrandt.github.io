@@ -12,12 +12,13 @@ icon: icon-html
 Let's learn how to do this.
 
 1. 
-`from google import search
-import requests
-import re
-import os
-from googleapiclient.discovery import build
-from pandas import DataFrame`
+
+    from google import search
+    import requests
+    import re
+    import os
+    from googleapiclient.discovery import build
+    from pandas import DataFrame
 
 2.
 `url_list = []
@@ -45,6 +46,7 @@ list_of_cities_concat = [item.replace(' ', '') for item in list_of_cities]
             url_list = []
             break
             `
+
 
 
 	<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
