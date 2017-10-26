@@ -13,12 +13,14 @@ Let's learn how to do this.
 
 1. 
 
-    from google import search
-    import requests
-    import re
-    import os
-    from googleapiclient.discovery import build
-    from pandas import DataFrame
+{% highlight python %}
+from google import search
+import requests
+import re
+import os
+from googleapiclient.discovery import build
+from pandas import DataFrame
+{% endhighlight %}
 
 2.
 `url_list = []
