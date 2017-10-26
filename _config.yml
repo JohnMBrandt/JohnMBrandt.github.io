@@ -31,8 +31,8 @@ author:  # change following line to your infomation.
   desc: I am a Master's of Environmental Management candidate at the Yale School of Forestry and Environmental Studies where I use data analytics and visualization for environmental policy analysis, consulting, and galvanizing climate change action.  # Describe yourself.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  #name: jalpc
 
 # analytics
 ## google analytics
