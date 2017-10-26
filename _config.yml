@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a Master's of Environmental Management student at the Yale School of Forestry and Environmental Studies \n where I focus on using big data and data analytics and visualization for environmental policy analysis, consulting, and galvanizing climate change action.  # Describe yourself.
+  desc: I am a Master's of Environmental Management candidate at the Yale School of Forestry and Environmental Studies where I use data analytics and visualization for environmental policy analysis, consulting, and galvanizing climate change action.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

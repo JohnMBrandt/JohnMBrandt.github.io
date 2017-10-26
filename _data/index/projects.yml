@@ -13,10 +13,10 @@
   gh_user: python
   repo: cpython
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: Modeling and visualization of big data to identify changes in consumer spending with changing air pollution as a means to incentivize governments to implement emissions reductions programs.
 
 - name: Yale Environmental Leadership Letters
   i18n: google
-  url: https://google.com
+  url: http://yellforclimate.org
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: Incorporate Yale's data on climate change perception and current climate commitments to create a platform where people can reference statistics and data when writing a letter to newspapers or local officials about climate change. Group work with Data Driven Yale, the Jackson Institute, and the Yale Panel on Climate Change Communication.
