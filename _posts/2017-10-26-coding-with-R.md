@@ -8,17 +8,10 @@ categories: [R]
 tags: [ggplot2, R]
 icon: icon-html
 ---
-Here's some dummy text<br>
-to <br>
-see<br>
-how<br>
-it<br>
-works<br>
-just<br>
-a<br>
-test<br>
+Here's some dummy text let's see how this works
 
-{% include plotly1.html %}
+
+<!--{% include plotly1.html %} -->
 
 
 
