@@ -3,9 +3,9 @@ layout: post
 title:  "Building a Simple Web Scraper with Python"
 date:   2017-10-26
 desc: "No description"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
-categories: [HTML]
-tags: [Jalpc,Jekyll]
+keywords: "easy, scraping, web, python"
+categories: [Python]
+tags: [webscraping, python]
 icon: icon-html
 ---
 
@@ -30,7 +30,7 @@ list_of_cities = ['nashville', 'dallas']
 list_of_cities_concat = [item.replace(' ', '') for item in list_of_cities]
 ```
 
-
+3.
 ``` python
 def google_results(query, **kwargs):
     service = build("customsearch", "v1",
@@ -42,6 +42,7 @@ def google_results(query, **kwargs):
         return result["items"]
 ```
 
+4. 
 ``` python
 for item in list_of_cities:
     for url in google_results("%s climate action plan filetype:pdf" % item):
@@ -53,11 +54,7 @@ for item in list_of_cities:
 ```
 
 
-
-	<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-	<img src="{{ site.img_path }}/3steps/edit.gif" width="75%">
-
-2. Enter into repository directory and edit following file list:
+5. Enter into repository directory and edit following file list:
 
 3. Push changes to your github repository and view your website, done!
 
