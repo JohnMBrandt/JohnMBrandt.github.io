@@ -4,7 +4,7 @@
     detail: Data Driven Yale
     i18n: Yale University
   desc:
-    detail: As a graduate student at Yale School of Forestry and Environmental Studies, I code in R and Python
+    detail: Data driven analysis of environmental policy. My team was a finalist in the United Nations Data for Climate Action Challenge, where we used spatially and temporally granular air quality and consumer spending data to quantify the effect of air pollution on consumer spending.
     i18n: company_a_desc
   date:
     detail: Aug. 2017
@@ -18,7 +18,7 @@
     detail: Vassar College
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Combination of data-driven environmental research and community organization and environmental advocacy. In this position I used a sensor network to develop a more energy efficient heating schedule for the college dormitories, with potential to save $90,000 in heating costs annually. I also organized community workshops, conferences, and gatherings attended by 30-150 people that focused on topics from student research to tree plantings to research exposition.
     i18n: company_b_desc
   date:
     detail: Jun. 2015
@@ -32,7 +32,7 @@
     detail: LIFE Inc
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Consulting for lake management.
     i18n: company_b_desc
   date:
     detail: Jun. 2015
