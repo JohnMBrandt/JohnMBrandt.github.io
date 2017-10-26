@@ -9,9 +9,9 @@ tags: [webscraping, python]
 icon: icon-html
 ---
 
-Let's learn how to do this.
+In this post we are going to use the requests package in combination with google's API to build a Python program that will download PDFs based upon multiple google searches.
 
-1. 
+1. We begin by importing the relevant Python packages. All of these can be installed using conda install in terminal or through the Anaconda navigator. This post uses Python 3.
 
 ``` python
 from google import search
@@ -22,7 +22,11 @@ from googleapiclient.discovery import build
 from pandas import DataFrame
 ```
 
-2.
+2. We begin by creating two empty lists, url_list and url_list_all_cities.
+Replace or add onto the list_of_cities list with cities that you want to download documents from.
+This tutorial grabs documents from Nashville and Dallas.
+The last line of code just concatenates two word cities into one word.
+
 ``` python
 url_list = []
 url_list_all_cities = []
@@ -30,7 +34,8 @@ list_of_cities = ['nashville', 'dallas']
 list_of_cities_concat = [item.replace(' ', '') for item in list_of_cities]
 ```
 
-3.
+3. We now build our function to do a google search.
+
 ``` python
 def google_results(query, **kwargs):
     service = build("customsearch", "v1",
@@ -42,7 +47,9 @@ def google_results(query, **kwargs):
         return result["items"]
 ```
 
-4.
+4. Iterate over every city in the list_of_cities list and google the city name + a topic.
+Replace "climate action plan" with whatever sort of plan you're interested in finding.
+
 ``` python
 for item in list_of_cities:
     for url in google_results("%s climate action plan filetype:pdf" % item):
@@ -54,7 +61,5 @@ for item in list_of_cities:
 ```
 
 
-5. Enter into repository directory and edit following file list:
-
-6. Push changes to your github repository and view your website, done!
+5. It's as simple as that - navigate to the folder with your python script and you should see the files appear as they download.
 
