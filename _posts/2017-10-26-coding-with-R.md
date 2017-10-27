@@ -9,7 +9,6 @@ tags: [ggplot2, R]
 icon: icon-html
 ---
 
-{{content}}
 Here's some dummy text let's see how this works
 
 
