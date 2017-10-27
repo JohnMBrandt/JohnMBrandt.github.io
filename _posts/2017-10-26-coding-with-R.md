@@ -11,7 +11,7 @@ icon: icon-html
 Here's some dummy text let's see how this works
 
 
-{% includes plotly1.html max-width="600px" %}
+{% include plotly1.html max-width="600px" %}
 
 
 Here's some dummy text
