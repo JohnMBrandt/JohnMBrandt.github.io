@@ -9,21 +9,6 @@ tags: [ggplot2, R]
 icon: icon-html
 ---
 
-Here's some dummy text let's see how this works
+##Coming soon
 
-
-{% include carto_pm10.html max-width="600px" %}
-
-
-
-
-Here's some dummy text
-to <br>
-see<br>
-how<br>
-it<br>
-works<br><br>
-just<br>
-a<br>
-test<br>
-<br>
+<!--{% include carto_pm10.html max-width="600px" %}-->
