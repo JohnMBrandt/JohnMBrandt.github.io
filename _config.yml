@@ -24,9 +24,9 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-python
-    - name: fa-python
+    - name: icon-python
   skill_icon2:
-    - name: fa-mongo
+    - name: icon-mongodb
     - name: icon-mongodb
   desc: I am a Master's of Environmental Management candidate at the Yale School of Forestry and Environmental Studies where I use data analytics and visualization for environmental policy analysis, consulting, and galvanizing climate change action.  # Describe yourself.
 
