@@ -60,6 +60,33 @@ for item in list_of_cities:
             break
 ```
 
+Extract the titles of the results and their urls
+``` python
+url_list_flattened = [val for sublist in url_list_all_cities for val in sublist]
+url_list_flattened_twice = [val for sublist in url_list_flattened for val in sublist]
+urls = [li['link'] for li in url_list_flattened]
+titles = [li['title'] for li in url_list_flattened]
+
+```
+
+Attach their filenames
+``` python
+def get_filename(number):
+    #return "%d.pdf" % number
+    return titles[number] + ".pdf"
+filename_list = []
+
+```
+
+Download each file in the list of results and attach a file name to it
+``` python
+for idx, url in enumerate(urls):
+    r = requests.get(url, allow_redirects=True)
+    filename = get_filename(idx)
+    filename_list.append(filename)
+    open(filename, 'wb').write(r.content)
+    
+```
 
 It's as simple as that - navigate to the folder with your python script and you should see the files appear as they download.
 

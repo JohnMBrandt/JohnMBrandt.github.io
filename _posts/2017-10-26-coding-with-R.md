@@ -8,10 +8,14 @@ categories: [R]
 tags: [ggplot2, R]
 icon: icon-html
 ---
+
+{{content}}
 Here's some dummy text let's see how this works
 
 
-{% include plotly1.html max-width="600px" %}
+{% include plotly1.html max-width="400px" %}
+
+
 
 
 Here's some dummy text
