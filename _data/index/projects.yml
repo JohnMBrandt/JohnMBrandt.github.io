@@ -1,0 +1,22 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Web Scraping and Text Analysis for Environmental Planning
+  i18n: jalpc
+  gh_user: jarrekk
+  repo: Jalpc
+  img: /static/assets/img/landing/jekyll.png
+  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+
+- name: Big data modeling and visualization for United Nations
+  i18n: cpython
+  gh_user: python
+  repo: cpython
+  img: /static/assets/img/landing/python.png
+  desc: Modeling and visualization of big data to identify changes in consumer spending with changing air pollution as a means to incentivize governments to implement emissions reductions programs.
+
+- name: Yale Environmental Leadership Letters
+  i18n: google
+  url: http://yellforclimate.org
+  img: /static/assets/img/landing/google.png
+  desc: Incorporate Yale's data on climate change perception and current climate commitments to create a platform where people can reference statistics and data when writing a letter to newspapers or local officials about climate change. Group work with Data Driven Yale, the Jackson Institute, and the Yale Panel on Climate Change Communication.
