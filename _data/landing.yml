@@ -24,6 +24,12 @@
   tpl: skills.html
   css: team
 
+- id: blog
+  il8n: nav.blog
+  name: Tutorials
+  tpl: blog.html
+  page: blog/
+
 #- id: blog
 #  i18n: nav.blog
 #  name: Tutorials
