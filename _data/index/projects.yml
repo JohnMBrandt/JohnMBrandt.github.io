@@ -2,9 +2,10 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Web Scraping and Text Analysis for Environmental Planning
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+  i18n: john
+  url: https://johnmbrandt.github.io/python/2017/10/27/optical-character-recognition-with-python.html
+  #gh_user: jarrekk
+  #repo: Jalpc
   img: /static/assets/img/landing/jekyll.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
