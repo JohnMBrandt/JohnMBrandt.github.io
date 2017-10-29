@@ -1,13 +1,11 @@
 ---
-layout: post
-title:  "Building a Simple Web Scraper with Python"
-date:   2017-10-26
-desc: "No description"
-keywords: "easy, scraping, web, python"
-categories: [Python]
-tags: [webscraping, python]
-icon: icon-html
+title: "Simple Python Web Scraper"
+excerpt: "Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag."
+last_modified_at: 2017-10-29
+tags: 
+  - code
 ---
+--
 
 In this post we are going to use the requests package in combination with google's API to build a Python program that will download PDFs based upon multiple google searches.
 
