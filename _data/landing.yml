@@ -8,8 +8,9 @@
 
 - id: projects
   i18n: nav.projects
-  name: Projects
+  name: Projects and Tutorials
   tpl: projects.html
+  page: blog/
   css: project
 
 - id: career
