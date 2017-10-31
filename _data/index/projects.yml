@@ -14,7 +14,7 @@
   #gh_user: python
   url: http://datadriven.yale.edu
   #repo: cpython
-  img: /static/assets/img/landing/python.png
+  img: /static/assets/img/landing/d4ca.png
   desc: Modeling and visualization of big data to identify changes in consumer spending with changing air pollution as a means to incentivize governments to implement emissions reductions programs.
 
 - name: Yale Environmental Leadership Letters
