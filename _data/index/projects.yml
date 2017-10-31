@@ -6,8 +6,8 @@
   url: https://johnmbrandt.github.io/python/2017/10/27/optical-character-recognition-with-python.html
   #gh_user: jarrekk
   #repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  img: /static/assets/img/landing/rbd.png
+  desc: Web scraping, text analysis, and natural language processing to identify cities integrating resiliency, sustainability, and affordable housing.
 
 - name: Big data modeling and visualization for United Nations
   i18n: cpython
