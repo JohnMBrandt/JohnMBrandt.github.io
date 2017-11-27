@@ -44,7 +44,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: data-vis.png
     alt: "placeholder image 2"
     title: "Data Visualization Portfolio"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
