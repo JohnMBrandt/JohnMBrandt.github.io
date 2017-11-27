@@ -82,7 +82,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "John Brandt"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Scientist and Environmentalist"
   location         : "Yale University"
