@@ -266,9 +266,4 @@ defaults:
       layout: single
       author_profile: false
       share: true
-<<<<<<< HEAD
-
-remote_theme: "mmistakes/minimal-mistakes"
-=======
   
->>>>>>> parent of f6e8049... test
