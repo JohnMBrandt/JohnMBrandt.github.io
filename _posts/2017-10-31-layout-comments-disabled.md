@@ -1,5 +1,5 @@
 ---
-title: "Layout: Comments Disabled"
+title: "First Post"
 comments: false
 categories:
   - Layout
