@@ -1,9 +1,9 @@
 ---
-title: "Foo Bar Identity"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "Text Mining of Environmental Planning Documents"
+excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: /assets/images/unsplash-gallery-image-2.jpg
+  teaser: assets/images/unsplash-gallery-image-2-th.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
