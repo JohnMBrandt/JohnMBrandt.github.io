@@ -3,7 +3,7 @@ main:
   - title: "Search"
     url: /search/
   - title: "About"
-    url: /uncategorized/about-me/
+    url: /about/
   - title: "Portfolio"
     url: /portfolio/
   - title: "Posts"
