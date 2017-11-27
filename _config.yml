@@ -243,7 +243,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:name/
+    permalink: /portfolio/:path/
 
 # Defaults
 defaults:
