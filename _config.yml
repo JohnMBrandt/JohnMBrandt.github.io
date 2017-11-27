@@ -253,6 +253,8 @@ defaults:
       type: posts
     values:
       layout: single
+      sidebar: 
+        nav: "sidebar-sample"
       author_profile: true
       read_time: true
       comments: # true
