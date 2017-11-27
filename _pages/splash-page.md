@@ -15,22 +15,22 @@ intro:
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Economic Impacts of Air Pollution"
+    excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation's Data for Climate Action Challenge."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Text mining to rank sustainable equitable cities"
+    excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Urban Environmental and Social Equity Index"
+    excerpt: "Still in development"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
+    title: "Static GIS Portfolio"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
     btn_label: "Read More"
@@ -38,15 +38,15 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
+    title: "Statistical Modeling in R Portfolio"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+    url: "#testill t-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
+    title: "Consulting Portfolio"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
     url: "#test-link"
     btn_label: "Read More"

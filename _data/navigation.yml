@@ -1,15 +1,13 @@
 # main links links
 main:
-  - title: "Search"
-    url: /search/
-  - title: "About"
+  - title: "Resume"
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
   - title: "Posts"
     url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Search"
+    url: /search/
 
 # sidebar navigation list sample
 sidebar-sample:
