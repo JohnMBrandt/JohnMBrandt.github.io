@@ -67,7 +67,7 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: johnmbrandt
+username: JohnMBrandt
 repo: JohnMBrandt.github.io
 branch: master
 relative_source: ../JohnMBrandt.github.io/
