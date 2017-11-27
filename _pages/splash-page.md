@@ -52,7 +52,6 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-# Featured Projects
 
 {% include feature_row id="intro" type="center" %}
 
