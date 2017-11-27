@@ -71,7 +71,7 @@ username: johnmbrandt
 repo: JohnMBrandt.github.io
 branch: master
 relative_source: ../JohnMBrandt.github.io/
-destination: ../JohnMBrandt.github.io/
+destination: ../gh-pages/
 production_url: https://johnmbrandt.github.io/
 source_url: https://github.com/JohnMBrandt/JohnMBrandt.github.io
 
