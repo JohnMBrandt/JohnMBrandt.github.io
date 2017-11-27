@@ -1,7 +1,11 @@
 ---
 title: "About"
 <<<<<<< HEAD
+<<<<<<< HEAD
 permalink: /about2/
+=======
+permalink: /about/
+>>>>>>> parent of eb76381... working
 layout: home
 ---
 =======
