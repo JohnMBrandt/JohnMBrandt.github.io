@@ -15,7 +15,7 @@ logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://myJekyll.github.io/jasper2/
-source_url: https://github.com/myJekyll/jasper2/
+source_url: https://github.com/JohnMBrandt/JohnMBrandt.github.io
 
 # Social info
 navigation: True # show the navbar links
@@ -70,10 +70,10 @@ lsi: False
 username: johnmbrandt
 repo: johnmbrandt
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
+relative_source: 
+destination:
 production_url:  https://johnmbrandt.github.io/
-source_url:  https://github.com/johnmbrandt/johnmbrandt/
+source_url:  https://github.com/JohnMBrandt/JohnMBrandt.github.io
 
 exclude:
   - README.md
