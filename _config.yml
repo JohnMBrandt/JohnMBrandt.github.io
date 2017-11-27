@@ -252,7 +252,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       sidebar: 
         nav: "sidebar-sample"
       author_profile: true
