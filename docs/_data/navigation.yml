@@ -1,18 +1,42 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Search"
     url: /search/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/
   - title: "Sample Posts"
     url: /year-archive/
+<<<<<<< HEAD
   - title: "Sample Collections"
     url: /collection-archive/
 <<<<<<< HEAD
   - title: "Sitemap"
     url: /sitemap/
 =======
+=======
+  - title: "External Link"
+    url: https://google.com
+>>>>>>> parent of f6e8049... test
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
 
@@ -73,7 +97,10 @@ docs:
         url: /docs/license/
       - title: "Terms &amp; Privacy Policy"
         url: /terms/
+<<<<<<< HEAD
 >>>>>>> parent of 0b9f629... ext link
+=======
+>>>>>>> parent of f6e8049... test
 
 # sidebar navigation list sample
 sidebar-sample:
