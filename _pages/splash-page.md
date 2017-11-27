@@ -11,7 +11,7 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Environmental professional geared to bring data-driven solutions to the environmental sector. Four years of experience using R and Python to manage databases and wrangle and analyze big data. Skilled in cartography and creating interactive data visualizations with JavaScript and ArcMap.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
