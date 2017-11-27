@@ -1,32 +1,64 @@
 ---
-layout: null
-title: 404
-permalink: /404.html
+layout: error
+current: error
+title: "404 - Page Not Found"
+permalink: 404.html
 ---
+<!--
+This error template is used for all 404 errors, which might occur on your site.
+It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error</title>
-    <!-- Mainly CSS -->
-    <link href="{{ "/static/assets/app-20170906.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ page.title }}</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://demo.ghost.io/assets/built/screen.css?v=724281a32e" />
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    {% include head.html %}
 </head>
-<body class="gray-bg">
-    <div class="middle-box text-center animated fadeInDown">
-        <h1>404</h1>
-        <h3 class="font-bold">Page Not Found</h3>
-        <div class="error-desc">
-            <p>
-            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in my website.
-            </p>
-            <div>
-                <a class="btn btn-primary" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+<body class="error-template">
+    <div class="site-wrapper">
+
+        <header class="site-header outer {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }})){% else %}no-cover{% endif %}">
+            <div class="inner">
+                <nav class="site-nav-center">
+                    {% if site.logo %}
+                        <a class="site-nav-logo" href="{{ site.baseurl }}"><img src="{{site.baseurl}}{{ site.logo }}" alt="{{ site.title }}" /></a>
+                    {% else %}
+                        <a class="site-nav-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
+                    {% endif %}
+                </nav>
             </div>
-        </div>
+        </header>
+
+        <main id="site-main" class="site-main outer" role="main">
+            <div class="inner">
+
+                <section class="error-message">
+                    <h1 class="error-code">404</h1>
+                    <p class="error-description">Page not found</p>
+                    <a class="error-link" href="{{ site.baseurl }}">Go to the front page →</a>
+                </section>
+            </div>
+        </main>
+
+        <!-- get "posts" limit="3" -->
+        <aside class="outer">
+            <div class="inner">
+                <div class="post-feed">
+                    <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+                    {%  include post-card-error.html %}
+                </div>
+            </div>
+        </aside>
+        <!-- /get -->
+
     </div>
-    <!-- Mainly scripts -->
-    <script src="{{"/static/assets/app-20170906.min.js"| prepend: site.baseurl }}"></script>
 </body>
 </html>

@@ -1,70 +1,86 @@
-# Welcome to Jekyll!
-
-# Website settings
-title: John Brandt
-description: John's Personal Website
-keywords: John, Brandt, Yale, Environment
-baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://johnmbrandt.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
-
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: John Brandt  # Be used at blog posts' author.
-  first_name: John  # Be used at index page about me section.
-  last_name: Brandt  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: JohnMBrandt  # Leave blank if you don't have now
-  linkedin_id: johnmbrandt # Leave blank if you don't have now
-  facebook_username:  # Leave blank if you don't have now
-  twitter_username:   # Leave blank if you don't have now
-  email: john.brandt@yale.edu  # Leave blank if you don't have now
-  cv:   # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-python
-    - name: icon-python
-  skill_icon2:
-    - name: icon-mongodb
-    - name: icon-mongodb
-  desc: I am a Master's of Environmental Management candidate at the Yale School of Forestry and Environmental Studies where I use data analytics and visualization for environmental policy analysis, consulting, and galvanizing climate change action.  # Describe yourself.
-
-# comment
-#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  #name: jalpc
-
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  # id:
-
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
-## donation
-donation: off  # type 'on'/'off' to choice display donation button at post page or not
-
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
-
-# scss
-sass:
-  style: compressed
-
-# Build settings
-encoding: utf-8
-
-# other settings
-highlighter: rouge
+# Jykell configuration
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: 'en-uk'
 
+# edit baseurl to simply '/' if using as your personal page (instead of a project page)
+baseurl: /jasper2/
+
+# Website info
+title: Ghost
+description: The professional publishing platform
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+production_url: https://myJekyll.github.io/jasper2/
+source_url: https://github.com/myJekyll/jasper2/
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if 'True' the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter: tryghost # replace by your username
+facebook: ghost # replace by your username
+
+# Disqus
+disqus: False
+disqus_name: myjekyll # replace by your username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace by your GA id
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors' info in `_data/authors.yml`
+# Tags' info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins: [jekyll-paginate, jekyll-feed]
+exclude: [vendor]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author's page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post's page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: myJekyll
+repo: jasper2
+branch: master
+relative_source: ../jasper2/
+destination: ../jasper2-pages/
+production_url:  https://myJekyll.github.io/jasper2/
+source_url:  https://github.com/myJekyll/jasper2/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
