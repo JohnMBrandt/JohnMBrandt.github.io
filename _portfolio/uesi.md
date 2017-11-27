@@ -1,5 +1,5 @@
 ---
-title: "Foo Bar Identity"
+title: "Urban Environmental and Social Inclusion Index"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
   image: /assets/images/foo-bar-identity.jpg
