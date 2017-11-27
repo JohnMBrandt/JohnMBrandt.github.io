@@ -5,7 +5,7 @@ permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.3"
   overlay_image: /assets/images/landingheader.jpg
   cta_label: "Resume"
   cta_url: "https://johnmbrandt.github.io/about/"
@@ -13,7 +13,7 @@ excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
   - excerpt: 'Environmental professional geared to bring data-driven solutions to the environmental sector. Four years of experience using R and Python to manage databases and wrangle and analyze big data. Skilled in cartography and creating interactive data visualizations with JavaScript and ArcMap.'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
     title: "Economic Impacts of Air Pollution"
     excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation's Data for Climate Action Challenge."
@@ -24,11 +24,11 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+  - image_path: /assets/images/uesi.png
     title: "Urban Environmental and Social Equity Index"
     excerpt: "Still in development"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
     title: "Static GIS Portfolio"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
