@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "John Brandt"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/avatar.jpg
   bio              : "Data Scientist and Environmentalist"
   location         : "Yale University"
   email            : john.brandt@yale.edu
