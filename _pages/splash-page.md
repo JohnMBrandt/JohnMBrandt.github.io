@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "John Brandt"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -7,10 +7,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
-  cta_label: "Download"
-  cta_url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  cta_label: "Resume"
+  cta_url: "https://johnmbrandt.github.io/about/"
+excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
