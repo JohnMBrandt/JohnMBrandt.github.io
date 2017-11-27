@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "Resume"
+fontsize: 12pt
 toc: true
 layout: single
 author_profile: true
