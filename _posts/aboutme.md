@@ -1,6 +1,6 @@
 ---
 title: "Layout: Author Override"
-author: Billy Rick
+include_author: true
 excerpt: "A post to test author overrides using a data file."
 ---
 
