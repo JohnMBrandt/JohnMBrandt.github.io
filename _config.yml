@@ -68,10 +68,10 @@ feed:
 safe: False
 lsi: False
 username: johnmbrandt
-repo: johnmbrandt
+repo: JohnMBrandt.github.io
 branch: master
 relative_source: ../JohnMBrandt.github.io/
-destination: ../johnmbrandt-pages/
+destination: ../JohnMBrandt.github.io/
 production_url: https://johnmbrandt.github.io/
 source_url: https://github.com/JohnMBrandt/JohnMBrandt.github.io
 
