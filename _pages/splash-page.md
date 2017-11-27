@@ -31,23 +31,23 @@ feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
     title: "Static GIS Portfolio"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    excerpt: 'Samples of GIS work'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
     title: "Statistical Modeling in R Portfolio"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
     url: "#testill t-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Consulting Portfolio"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    title: "Data Visualization Portfolio"
+    excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
