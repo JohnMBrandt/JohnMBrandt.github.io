@@ -72,8 +72,8 @@ repo: johnmbrandt
 branch: master
 relative_source: 
 destination:
-production_url:  https://johnmbrandt.github.io/
-source_url:  https://github.com/JohnMBrandt/JohnMBrandt.github.io
+production_url: https://johnmbrandt.github.io/
+source_url: https://github.com/JohnMBrandt/JohnMBrandt.github.io
 
 exclude:
   - README.md
