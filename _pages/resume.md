@@ -2,7 +2,7 @@
 permalink: /about/
 title: "Resume"
 fontsize: 12pt
-toc: true
+toc: false
 layout: single
 author_profile: true
 ---
@@ -42,4 +42,11 @@ Sustainability Fellow - Vassar College
 
 Sustainable CT
 
+* Write strategic and financial plan to implement state-wide municipal sustainability certification.
+
+* Team-based development of sustainability indicators relevant to local townships.
+
+
 Resilient By Design
+
+* Web scraping, network modeling, and text analysis to rank cities based upon indicators of affordability, inclusivity, resilience, and sustainability. 
