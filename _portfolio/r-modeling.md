@@ -2,28 +2,15 @@
 title: "Statistical Modeling in R"
 excerpt: "Linear and nonlinear modeling of longitudinal and skewed environmental datasets."
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: /assets/images/r-modeling-1.png
+  teaser: /assets/images/r-modeling-1-th.png
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: /assets/images/avatar.jpg
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "Modeling and visualization in R"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+    text: "GLS, NLS, brute-force modeling, cubic splines transformation"
 ---
 
 {% include Homework_6.html %}
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
