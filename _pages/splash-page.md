@@ -34,7 +34,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Geospatial Analysis and Visualization"
     excerpt: 'Samples of GIS work'
-    url: "#test-link"
+    url: "https://johnmbrandt.github.io/public-resource-mapper/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
