@@ -25,7 +25,7 @@ Data Driven Yale
 
 LIFE Inc
 
-##### * Write RFP responses, develop budgets, and write lake management plans for cities, companies, and parks that recommend policy changes to improve water quality, public access, and biodiversity.
+* Write RFP responses, develop budgets, and write lake management plans for cities, companies, and parks that recommend policy changes to improve water quality, public access, and biodiversity.
 
 
 Sustainability Fellow - Vassar College
