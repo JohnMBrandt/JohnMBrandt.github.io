@@ -28,7 +28,7 @@ feature_row:
   - image_path: /assets/images/uesi.png
     title: "Urban Environmental and Social Equity Index"
     excerpt: "Allows users to explore how environmental performance and social inclusion vary in select cities around the world. Still in development."
-    url: "datadriven.yale.edu"
+    url: "http://datadriven.yale.edu"
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
