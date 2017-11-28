@@ -28,7 +28,6 @@ feature_row:
   - image_path: /assets/images/uesi.png
     title: "Urban Environmental and Social Equity Index"
     excerpt: "Still in development"
-feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
     title: "Static GIS Portfolio"
