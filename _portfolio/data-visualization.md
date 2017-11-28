@@ -1,6 +1,6 @@
 ---
 title: "Data Visualization"
-excerpt: "Linear and nonlinear modeling of longitudinal and skewed environmental datasets."
+excerpt: "Samples of data visualization in ArcGIS, R, Python, and JavaScript."
 header:
   image: /assets/images/foo-bar-identity.jpg
   teaser: /assets/images/data-vis-1.png

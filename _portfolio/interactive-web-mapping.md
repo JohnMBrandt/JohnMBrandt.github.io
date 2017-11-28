@@ -2,7 +2,7 @@
 title: "Interactive Web Mapping"
 excerpt: "Web portal allowing users to find information about and get directions to local public services."
 header:
-  teaser: assets/images/unsplash-gallery-image-3-th.jpg
+  teaser: assets/images/interactive-mapping-th.png
 sidebar:
   - title: "Role"
     image: assets/images/avatar.jpg
