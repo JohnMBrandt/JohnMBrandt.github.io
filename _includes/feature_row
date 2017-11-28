@@ -31,7 +31,7 @@
         <div class="archive__item-body">
           {% if f.title %}
             {% if f.url %}
-              <h2 class="archive__item-title"><a href="{{ f_url }}" style="color: inherit">{{ f.title }}</a></h2>
+              <h2 class="archive__item-title"><a href="{{ f_url }}" style="color: inherit; text-decoration: none">{{ f.title }}</a></h2>
             {% else %}
               <h2 class="archive__item-title">{{ f.title }}</h2>
             {% endif %}
@@ -41,10 +41,6 @@
             <div class="archive__item-excerpt">
               {{ f.excerpt | markdownify }}
             </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
         </div>
       </div>

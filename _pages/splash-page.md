@@ -17,6 +17,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Economic Impacts of Air Pollution"
     excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation's Data for Climate Action Challenge."
+    url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/rbd.png
     alt: "placeholder image 2"
     title: "Text mining to rank sustainable equitable cities"
@@ -40,7 +41,7 @@ feature_row3:
     alt: "placeholder image 2"
     title: "Statistical Modeling in R Portfolio"
     excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
-    url: "#testill t-link"
+    url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
