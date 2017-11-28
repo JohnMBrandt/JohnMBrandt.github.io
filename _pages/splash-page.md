@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/landingheader.jpg
-  cta_label: "Resume"
+  cta_label: "Résumé"
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
@@ -32,7 +32,7 @@ feature_row:
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
-    title: "Static GIS Portfolio"
+    title: "Geospatial Analysis and Visualization"
     excerpt: 'Samples of GIS work'
     url: "#test-link"
     btn_label: "Read More"
@@ -40,7 +40,7 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
-    title: "Statistical Modeling in R Portfolio"
+    title: "Statistical Modeling in R"
     excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
     btn_label: "Read More"
@@ -48,7 +48,7 @@ feature_row3:
 feature_row4:
   - image_path: /assets/images/data-vis-1.png
     alt: "placeholder image 2"
-    title: "Data Visualization Portfolio"
+    title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "#test-link"
     btn_label: "Read More"
