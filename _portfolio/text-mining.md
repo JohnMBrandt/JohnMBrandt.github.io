@@ -3,7 +3,7 @@ title: "Text Mining of Environmental Planning Documents"
 excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
 header:
   image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/unsplash-gallery-image-2-th.jpg
+  teaser: assets/images/rbd-th.png
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

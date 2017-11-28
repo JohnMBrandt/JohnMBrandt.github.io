@@ -17,7 +17,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Economic Impacts of Air Pollution"
     excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation's Data for Climate Action Challenge."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/rbd.png
     alt: "placeholder image 2"
     title: "Text mining to rank sustainable equitable cities"
     excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
