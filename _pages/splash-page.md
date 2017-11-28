@@ -13,6 +13,7 @@ excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
   - excerpt: 'Environmental professional geared to bring data-driven solutions to the environmental sector. Four years of experience using R and Python to manage databases and wrangle and analyze big data. Skilled in cartography and creating interactive data visualizations with JavaScript and ArcMap.'
 feature_row:
+  title: "Does this work"
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
     title: "Economic Impacts of Air Pollution"
@@ -35,7 +36,6 @@ feature_row2:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
     title: "Statistical Modeling in R Portfolio"
@@ -43,7 +43,6 @@ feature_row3:
     url: "#testill t-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row4:
   - image_path: /assets/images/datavis.png
     alt: "placeholder image 2"
     title: "Data Visualization Portfolio"
@@ -56,9 +55,5 @@ feature_row4:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+{% include feature_row id="featurerow2" %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
