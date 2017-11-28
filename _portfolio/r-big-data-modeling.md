@@ -6,7 +6,7 @@ header:
   teaser: assets/images/d4ca-th.png
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    image: /assets/images/avatar.jpg
     image_alt: "logo"
     text: "Programmer, Front-End Developer"
   - title: "Responsibilities"
