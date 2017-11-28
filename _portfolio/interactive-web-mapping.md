@@ -22,7 +22,7 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
-<iframe width="600" height="600" src="https://johnmbrandt.github.io/public-resource-mapper/" frameborder="0" allowfullscreen></iframe>
+<iframe width="900" height="600" src="https://johnmbrandt.github.io/public-resource-mapper/" frameborder="0" allowfullscreen></iframe>
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
