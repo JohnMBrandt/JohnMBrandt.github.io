@@ -2,7 +2,7 @@
 title: "Economic Impacts of Air Pollution"
 excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation’s Data for Climate Action Challenge."
 header:
-  image: /assets/images/d4ca.png
+  image: /assets/images/d4ca-presenting.jpg
   teaser: assets/images/d4ca-th.png
 sidebar:
   - title: "Role"
