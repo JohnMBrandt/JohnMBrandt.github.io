@@ -21,9 +21,10 @@ feature_row:
     alt: "placeholder image 2"
     title: "Text mining to rank sustainable equitable cities"
     excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
-    url: "#test-link"
+    url: /portfolio/text-mining/
     btn_label: "Read More"
     btn_class: "btn--primary"
+    title_url: /portfolio/text-mining/
   - image_path: /assets/images/uesi.png
     title: "Urban Environmental and Social Equity Index"
     excerpt: "Still in development"
