@@ -12,14 +12,14 @@ sidebar:
   - title: "Responsibilities"
     text: "Modeling in R and Python, Geospatial analysis in ArcMap, and visualization in JavaScript"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - url: /assets/images/d4ca-1.jpg
+    image_path: assets/images/d4ca-1-th.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+  - url: /assets/images/d4ca-2.jpg
+    image_path: assets/images/d4ca-2-th.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+  - url: /assets/images/d4ca-3.jpg
+    image_path: assets/images/d4ca-3-th.jpg
     alt: "placeholder image 3"
 ---
 
@@ -28,6 +28,8 @@ A team of Data-Driven Yale researchers received an award in the inaugural UN Dat
 The team’s winning analysis explored air pollution’s impact on consumer spending, visualizing its results in a series of interactive maps and case studies.
 
 Team members John Brandt, Matthew Moroney, and Sophie Janaskie, masters of environmental management candidates at the Yale School of Forestry & Environmental Studies, joined Angel Hsu, Assistant Professor at Yale-NUS College and Director of Data-Driven Yale, in accepting this award at a November 12th ceremony held at the United Nations COP-23 conference.
+
+{% include gallery caption="Photos of the event held at COP 23 in Bonn, Germany, November 2017." %}
 
 “Air pollution affects 90 percent of the global pollution and causes 7 million premature deaths. While studies exist to quantify these health impacts and the public health costs of air pollution, little data exist to estimate short-term impacts on people’s daily activities and behavior – what I call ‘micro-migrations,’” said Dr. Hsu.
 
@@ -42,5 +44,3 @@ The contest connected the researchers with retail financial group BBVA and weath
 In total, 97 semi-finalist teams developed projects using donated datasets from 11 companies. Six teams received recognition for topics ranging from the use of  real-time traffic data to determine ideal electromobility routes in Mexico City to the application of cell phone data to understand displacement from floods in Senegal at Sunday’s event.
 
 “Data philanthropy is a crucial component to combating climate change and creating a just world. Society wins when businesses leverage their expertise by allowing access to their data for open-sourced innovation,” said Matthew Moroney, a second-year MEM student.
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}

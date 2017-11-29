@@ -26,9 +26,9 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/uesi.png
-    title: "Urban Environmental and Social Equity Index"
+    title: "Urban Environmental and Social Inclusion"
     excerpt: "Allows users to explore how environmental performance and social inclusion vary in select cities around the world. Still in development."
-    url: "http://datadriven.yale.edu"
+    url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
