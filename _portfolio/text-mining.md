@@ -1,7 +1,13 @@
 ---
 title: "Text Mining of Environmental Planning Documents"
 excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
-
+sidebar:
+  - title: "Role"
+    image: /assets/images/avatar.jpg
+    image_alt: "logo"
+    text: "Modeling and visualization in R"
+  - title: "Responsibilities"
+    text: "GLS, NLS, brute-force modeling, cubic splines transformation"
 ---
 
 ``` python
