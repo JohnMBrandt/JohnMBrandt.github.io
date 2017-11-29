@@ -1,26 +1,7 @@
 ---
 title: "Text Mining of Environmental Planning Documents"
 excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
-header:
-  image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/rbd-th.png
-sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
-    image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+
 ---
 
 ``` python
@@ -231,13 +212,4 @@ final2 = final2.append(df2)
 len(final2)
 
 final2.to_csv("final2.csv")
-```
-
-
-``` R
-
-
-
-
-
 ```
