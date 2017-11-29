@@ -1,6 +1,8 @@
 ---
 title: "Text Mining of Environmental Planning Documents"
 excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
+header:
+  teaser: assets/images/rbd-th.png
 sidebar:
   - title: "Role"
     image: /assets/images/avatar.jpg
