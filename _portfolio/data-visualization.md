@@ -4,6 +4,7 @@ excerpt: "Samples of data visualization in ArcGIS, R, Python, and JavaScript."
 header:
   image: /assets/images/foo-bar-identity.jpg
   teaser: /assets/images/data-vis-1.png
+share: false
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
