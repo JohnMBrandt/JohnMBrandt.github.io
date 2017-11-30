@@ -6,8 +6,6 @@ header:
 share: false
 sidebar:
   - title: "Role"
-    image: assets/images/avatar.jpg
-    image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Tools Used"
     text: "Leaflet, CartoDB, Bootstrap, JQuery, AJAX"
