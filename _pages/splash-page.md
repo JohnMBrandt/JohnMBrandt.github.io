@@ -50,7 +50,7 @@ feature_row4:
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
-    url: "#test-link"
+    url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
