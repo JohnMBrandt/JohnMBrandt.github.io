@@ -21,4 +21,4 @@ gallery:
 
 Still in development.
 
-{{ "/assets/sample1.png" | absolute_url }})
+{{ "/assets/images/sample1.png" | absolute_url }})
