@@ -6,10 +6,6 @@ header:
   image: /assets/images/d4ca-presenting.jpg
   teaser: assets/images/d4ca-th.png
 sidebar:
-  - title: "Role"
-    image: /assets/images/avatar.jpg
-    image_alt: "logo"
-    text: "Programmer, Front-End Developer"
   - title: "Responsibilities"
     text: "Modeling in R and Python, Geospatial analysis in ArcMap, and visualization in JavaScript"
 gallery:

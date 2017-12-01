@@ -5,8 +5,6 @@ header:
   teaser: assets/images/interactive-mapping-th.png
 share: false
 sidebar:
-  - title: "Role"
-    text: "Designer, Front-End Developer"
   - title: "Tools Used"
     text: "Leaflet, CartoDB, Bootstrap, JQuery, AJAX"
 

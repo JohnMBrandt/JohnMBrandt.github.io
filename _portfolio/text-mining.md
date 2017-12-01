@@ -5,12 +5,8 @@ share: false
 header:
   teaser: assets/images/rbd-th.png
 sidebar:
-  - title: "Role"
-    image: /assets/images/avatar.jpg
-    image_alt: "logo"
-    text: "Modeling and visualization in R"
-  - title: "Responsibilities"
-    text: "GLS, NLS, brute-force modeling, cubic splines transformation"
+  - title: "Tools Used"
+    text: "Web scraping, NLP, OCR, text analysis, Python, R"
 ---
 
 ``` python
