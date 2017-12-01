@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "John Brandt"
   avatar           : /assets/images/avatar.jpg
-  bio              : "I love to visualize and use data in ways that solve environmental and social problems."
+  bio              : "I love to visualize and use data in ways that address environmental and social problems."
   location         : "Yale University"
   email            : john.brandt@yale.edu
   uri              :
@@ -266,6 +266,6 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
   
