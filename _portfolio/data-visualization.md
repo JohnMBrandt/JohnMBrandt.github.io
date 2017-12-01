@@ -22,5 +22,5 @@ gallery:
 Still in development
 
 <figure>
-  <a href="/assets/images/sample1.png"></a>
+  <img src = "/assets/images/sample1.png">
 </figure>
