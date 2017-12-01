@@ -19,6 +19,8 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Still in development.
+Still in development
 
-{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/sample1.png){% endraw %}
+<figure>
+  <a href="assets/images/sample1.png"></a>
+</figure>
