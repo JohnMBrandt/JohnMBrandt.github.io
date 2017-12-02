@@ -19,7 +19,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Still in development
+Still in development.
 
 <figure>
   <img src = "/assets/images/sample1.png">
