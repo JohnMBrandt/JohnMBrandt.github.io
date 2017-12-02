@@ -27,5 +27,5 @@ Still in development.
 
 
 <figure>
-  <img src = "/assets/images/sample2.png">
+  <img src = "/assets/images/Sample2.png">
 </figure>
