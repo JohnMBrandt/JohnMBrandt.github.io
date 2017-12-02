@@ -24,3 +24,8 @@ Still in development
 <figure>
   <img src = "/assets/images/sample1.png">
 </figure>
+
+
+<figure>
+  <img src = "/assets/images/sample2.png">
+</figure>
