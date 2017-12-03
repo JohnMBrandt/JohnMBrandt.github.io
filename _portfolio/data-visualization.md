@@ -33,3 +33,7 @@ Still in development.
 <figure>
   <img src = "/assets/images/sample3.png">
 </figure>
+
+<figure>
+  <img src = "/assets/images/calendar1.png">
+</figure>
