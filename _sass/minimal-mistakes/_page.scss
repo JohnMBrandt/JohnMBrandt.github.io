@@ -24,12 +24,12 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow - 10%;
+    padding-right: calc($right-sidebar-width-narrow - 100px);
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width - 10%;
+    padding-right: calc($right-sidebar-width - 100px);
   }
 
   .page__inner-wrap {
