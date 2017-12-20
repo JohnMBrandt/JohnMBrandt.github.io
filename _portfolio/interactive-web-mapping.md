@@ -10,8 +10,4 @@ sidebar:
 
 ---
 
-This web portal is still under development.
-
-<iframe width="1050" height="600" src="https://johnmbrandt.github.io/public-resource-mapper/" frameborder="0" allowfullscreen></iframe>
-
-
+{% include gis_final.html %}
