@@ -4,11 +4,11 @@
 
 #main {
   @include clearfix;
-  margin-left: 4em;
+  margin-left: 3.5em;
   margin-top: 2em;
   margin-right: 5%;
   padding-left: 1em;
-  padding-right: 0.5em;
+  padding-right: 1em;
   -webkit-animation: $intro-transition;
           animation: $intro-transition;
   -webkit-animation-delay: 0.35s;
