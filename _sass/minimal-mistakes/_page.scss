@@ -6,9 +6,9 @@
   @include clearfix;
   margin-left: auto;
   margin-top: 2em;
-  margin-right: auto;
+  margin-right: 5%;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 0.5em;
   -webkit-animation: $intro-transition;
           animation: $intro-transition;
   max-width: 100%;
@@ -24,12 +24,12 @@
 
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - (#{$right-sidebar-width-narrow}*.75));
+    width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - (#{$right-sidebar-width}*.75));
+    width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
