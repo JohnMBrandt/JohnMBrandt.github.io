@@ -10,4 +10,4 @@ sidebar:
     text: "GLS, NLS, brute-force modeling, cubic splines transformation"
 ---
 
-{% include Homework_6.html %}
+{% include regfinal.html %}
