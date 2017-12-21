@@ -18,9 +18,9 @@ Bachelor of Arts - Biology - Vassar College - 2016
 
 Data Driven Yale
 
-* Modeled the financial impact of air pollution on consumer spending in R, Python, and ArcGIS. Presented at COP 23 where the project won an award as part of the United Nations Data for Climate Action Challenge.
+* Modeled the financial impact of air pollution on consumer spending in R, Python, and ArcGIS. Presented at COP 23 where the project received an award as part of the United Nations Data for Climate Action Challenge.
 
-* Co-founder of Yale Environmental Leadership Letters, a data-driven letter campaign for local climate action.
+* Geospatial analysis in R and Python and interactive web-mapping with JavaScript to analyze global urban environmental equity. Project to be presented at the World Economic Forum in 2018.
 
 
 LIFE Inc
