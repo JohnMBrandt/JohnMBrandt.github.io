@@ -1,5 +1,4 @@
 ---
-title: "Data visualization"
 output: 
   html_document:
     code_folding: hide
