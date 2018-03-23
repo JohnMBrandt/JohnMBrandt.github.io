@@ -8,7 +8,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
-![](vis/rainfall_zone.gif)
+![](vis/rainfall_zone-min.gif)
 
 ![](vis/sample1.png)
 ```{r}
