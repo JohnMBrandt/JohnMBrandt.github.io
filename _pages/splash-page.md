@@ -11,7 +11,7 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals.'
+  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals. View my '
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
@@ -43,6 +43,14 @@ feature_row2:
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
+feature_row3:
+  - image_path: /assets/images/gisportfolio.png
+    alt: "placeholder image 2"
+    title: "There will be something here"
+    excerpt: 'Sample of GIS work'
+    url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -50,6 +58,9 @@ feature_row2:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2"%}
+
+{% include feature_row id="feature_row3" type="left" %}
+
 
 {% include feature_row id="feature_row3" type="right" %}
 
