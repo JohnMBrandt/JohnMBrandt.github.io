@@ -75,9 +75,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-127985279-1
 
 
 # Site Author
@@ -191,6 +191,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
