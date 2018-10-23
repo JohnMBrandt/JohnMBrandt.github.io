@@ -11,33 +11,40 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Environmental professional geared to bring data-driven solutions to the environmental sector. Four years of experience using R and Python to manage databases and wrangle and analyze big data. Skilled in cartography and creating interactive data visualizations with JavaScript and ArcMap.'
+  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals.'
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
-    title: "Economic Impacts of Air Pollution"
-    excerpt: "Presented and won an award at COP 23 in Bonn, Germany as part of the United Nation's Data for Climate Action Challenge."
+    title: "Identifying micro-economic impacts of pollution with big data"
+    excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award at the 23rd United Nations Climate Change Conference."
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/rbd.png
     alt: "placeholder image 2"
-    title: "Text mining to rank sustainable equitable cities"
-    excerpt: "Web scraping and text mining of planning documents to identify sustainable and equitable cities for Resilient by Design."
-    url: "https://johnmbrandt.github.io/portfolio/text-mining/"
+    title: "Automating policy analysis"
+    excerpt: "R package that automates policy analysis, identifies policy misalignment and benchmarks policy agenda with neural embeddings."
+    url: "https://github.com/wri/retrieveR"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/uesi.png
-    title: "Urban Environmental and Social Inclusion"
-    excerpt: "Allows users to explore how environmental performance and social inclusion vary in select cities around the world. Still in development."
+    title: "Interactive web design"
+    excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in more than 30 global cities. "
     url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
-    title: "Geospatial Analysis and Visualization"
-    excerpt: 'Samples of GIS work'
+    title: "Network analysis in ArcPython"
+    excerpt: 'Sample of GIS work'
     url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
+  - image_path: /assets/images/r-modeling.png
+    alt: "placeholder image 2"
+    title: "Statistical Modeling in R"
+    excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
+    url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
     title: "Statistical Modeling in R"
