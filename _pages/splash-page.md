@@ -7,25 +7,25 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
   overlay_image: /assets/images/landingheader.jpg
-  cta_label: "Résumé"
+  cta_label: "Resumé"
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals.'
+  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to drive better business and policy decisions.'
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
     title: "Identifying micro-economic impacts of pollution with big data"
-    excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award at the 23rd United Nations Climate Change Conference."
+    excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award from the United Nations"
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/rbd.png
     alt: "placeholder image 2"
     title: "Automating policy analysis"
-    excerpt: "R package that automates policy analysis, identifies policy misalignment and benchmarks policy agenda with neural embeddings."
+    excerpt: "R package that automates policy analysis and identifies policy misalignment with neural embeddings."
     url: "https://github.com/wri/retrieveR"
   - image_path: /assets/images/uesi.png
     title: "Interactive web design"
-    excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in more than 30 global cities. "
+    excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in 30 global cities. "
     url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
@@ -35,7 +35,7 @@ feature_row2:
     url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
-    title: "Statistical Modeling in R"
+    title: "Statistics and Machine Learning"
     excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
   - image_path: /assets/images/data-vis-1.png
@@ -52,7 +52,7 @@ feature_row2:
 #    btn_label: "Read More"
 #    btn_class: "btn--primary"
 outro: 
-  - excerpt: 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), resume, or LinkedIn.'
+  - excerpt: 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt).'
 ---
 
 {% include feature_row id="intro" type="center" %}
