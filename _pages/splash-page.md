@@ -18,21 +18,19 @@ feature_row:
     title: "Identifying micro-economic impacts of pollution with big data"
     excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award at the 23rd United Nations Climate Change Conference."
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/gisportfolio.png
     alt: "placeholder image 2"
     title: "Network analysis in ArcPython"
     excerpt: 'Sample of GIS work'
     url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    - image_path: /assets/images/rbd.png
+  - image_path: /assets/images/rbd.png
     alt: "placeholder image 2"
     title: "Automating policy analysis"
     excerpt: "R package that automates policy analysis, identifies policy misalignment and benchmarks policy agenda with neural embeddings."
     url: "https://github.com/wri/retrieveR"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/uesi.png
     title: "Interactive web design"
     excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in more than 30 global cities. "
@@ -43,22 +41,16 @@ feature_row3:
     title: "Statistical Modeling in R"
     excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/data-vis-1.png
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/data-vis-1.png
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
