@@ -11,16 +11,7 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals. View my '
-
-feature_row3:
-  - image_path: assets/images/d4ca.png
-    alt: "placeholder image 1"
-    title: "Identifying micro-economic impacts of pollution with big data"
-    excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award at the 23rd United Nations Climate Change Conference."
-    url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to implement the sustainable development goals.'
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
@@ -52,12 +43,22 @@ feature_row2:
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
+#feature_row3:
+#  - image_path: /assets/images/gisportfolio.png
+#    alt: "placeholder image 2"
+#    title: "There will be something here"
+#    excerpt: 'Placeholder'
+#    url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
+outro: 
+  - excerpt: 'View my portfolio, resume, or LinkedIn.'
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row3" type="left" %}
-
 {% include feature_row %}
 
 {% include feature_row id="feature_row2"%}
+
+{% include feature_row id="outro" type="center" %}
