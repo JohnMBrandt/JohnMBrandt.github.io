@@ -52,7 +52,7 @@ feature_row2:
 #    btn_label: "Read More"
 #    btn_class: "btn--primary"
 outro: 
-  - excerpt: 'View my portfolio, resume, or LinkedIn.'
+  - excerpt: 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), resume, or LinkedIn.'
 ---
 
 {% include feature_row id="intro" type="center" %}
