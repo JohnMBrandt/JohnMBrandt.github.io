@@ -18,7 +18,7 @@ feature_row:
     title: "Identifying micro-economic impacts of pollution with big data"
     excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award from the United Nations"
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
-  - image_path: /assets/images/rbd.png
+  - image_path: /assets/images/retriever-th.png
     alt: "placeholder image 2"
     title: "Automating policy analysis"
     excerpt: "R package that automates policy analysis and identifies policy misalignment with neural embeddings."
@@ -28,7 +28,7 @@ feature_row:
     excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in 30 global cities. "
     url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
-  - image_path: /assets/images/gisportfolio.png
+  - image_path: /assets/images/dem-service-area-th.png
     alt: "placeholder image 2"
     title: "Network analysis in ArcPython"
     excerpt: 'Sample of GIS work'
@@ -38,7 +38,7 @@ feature_row2:
     title: "Statistics and Machine Learning"
     excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
-  - image_path: /assets/images/data-vis-1.png
+  - image_path: /assets/images/visualization-th.png
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'

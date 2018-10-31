@@ -1,12 +1,12 @@
 ---
-title: "Data Visualization"
-excerpt: "Samples of data visualization in ArcGIS, R, Python, and JavaScript."
+title: "Static Data Visualization"
+excerpt: "Samples of static data visualization in R."
 header:
-  teaser: /assets/images/data-vis-1.png
+  teaser: /assets/images/visualization-th.png
 share: false
 sidebar:
   - title: "Resources Used"
-    text: "Still in Development"
+    text: "ggplot2"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
