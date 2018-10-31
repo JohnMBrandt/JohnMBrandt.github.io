@@ -1,6 +1,6 @@
 ---
-title: "A demographic-based service area toolkit"
-excerpt: "Web portal allowing users to find information about and get directions to local public services."
+title: "Network analysis in ArcPython"
+excerpt: "Identifies regions underserving target demographics with road network analysis."
 header:
   teaser: assets/images/dem-service-area-th.png
 share: false

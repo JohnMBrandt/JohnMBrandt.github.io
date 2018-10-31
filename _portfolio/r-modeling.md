@@ -1,6 +1,6 @@
 ---
-title: "Statistical Modeling in R"
-excerpt: "Linear and nonlinear modeling of longitudinal and skewed environmental datasets."
+title: "Traditional Statistics"
+excerpt: "Linear and nonlinear modeling of longitudinal and skewed datasets in R."
 share: false
 header:
   teaser: /assets/images/r-modeling-1-th.png
