@@ -153,7 +153,7 @@ dependencies, such as when a word’s meaning depends upon a word many
 words before or after it in the phrase.
 
 
-<figure class="align-center">
+<figure class="align-center" style="width: 600px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/attention-1.png" alt="">
   <figcaption>Diagrammatical framework for transformer architecture</figcaption>
 </figure> 
@@ -208,13 +208,13 @@ $$y=b+Uh(w_{t-k}, ..., w_{t+k};W,D)$$
 {% endraw %}
 
 
-<figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-2" alt="">
+<figure class="align-center" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-2.png" alt="">
   <figcaption>Diagrammatical framework for distributed memory approach to
 doc2vec.</figcaption>
 </figure> 
 
-<figure class="align-center">
+<figure class="align-center" style="width: 300px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-3.png" alt="">
   <figcaption>Diagrammatical framework for distributed bag of words approach to
 doc2vec.</figcaption>
@@ -283,12 +283,16 @@ elaborated in Figure \[fig:skipthoughts-encoder\], where $\bar h$ is the
 proposed state update, $z$ is the update gate, and $r$ is the reset
 gate.
 
+
+{% raw %}
 $$\begin{aligned}
     r^t &= \sigma(W_rx^t + U_r h^{t-1}) \\
     z^t &= \sigma (W_z x^t + U_z h^{t-1}) \\
     \bar h^t &= tanh(Wx^t + U(r^t \cdot h^{t-1})) \\
     h^t &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t
     \end{aligned}$$
+{% endraw %}
+
 
 The decoder (\[fig:skipthoughts-decoder\] is similar to the encoder
 except it introduces matrices $C_z$, $C_r$, and $C$. These bias the
@@ -299,6 +303,8 @@ parameters except for the vocabulary matrix. The objective, shown in
 log probabilities of the first and last sentences conditioned on the
 encoded middle sentence.
 
+
+{% raw %}
 $$\begin{aligned}
     r^t &= \sigma(W_r^d x^{t-1} + U_r^d h^{t-1} _  C_r h_i) \\
     z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\
@@ -306,8 +312,12 @@ $$\begin{aligned}
     h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\
     P(w^t_{i+1}|w^{<t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
     \end{aligned}$$
+{% endraw %}
 
+
+{% raw %}
 $$\sum\limits_{t}logP(w^t_{i+1}, h_i) + \sum\limits_{t}log P (w^t_{i-1}|w^{<t}{i-1}, h_i)$$
+{% endraw %}
 
 Skip-thoughts also introduces a mechanism to expand vocabulary to
 incorporate out of vocabulary words. It does so by using an
@@ -406,9 +416,15 @@ quick-thoughts is to maximize the sum of the log probability of
 correctly identifying the context sentence for all minibatches of all
 input sentences (Equation \[fig:quickthoughts-obj\]).
 
-$$p(S_{cand}|s, S_{cand}) = \frac{exp[c(f(s),g(s_{cand}))]}{\sum exp[c(f(s),g(s'))]}$$
 
+{% raw %}
+$$p(S_{cand}|s, S_{cand}) = \frac{exp[c(f(s),g(s_{cand}))]}{\sum exp[c(f(s),g(s'))]}$$
+{% endraw %}
+
+
+{% raw %}
 $$\sum\limits_{s \in D} \sum\limits_{s_{ctxt} \in S_{ctxt}} log p(s_{ctxt} | s, S_{cand})$$
+{% endraw %}
 
 Quick-thoughts is trained on 7,000 novels in the BookCorpus dataset,
 containing 45 million sentences, as well as the UMBC corpus with 129
