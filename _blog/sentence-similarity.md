@@ -253,11 +253,17 @@ retrieval. In an evaluation task with a goal of identifying pairs of
 similar sentences from triplet sets, doc2vec achieve an error rate of
 just 3.82%, a 1.8% absolute and 30% relative improvement.
 
-![Results of doc2vec on sentiment analysis for the Stanford treebank
-task.[]{data-label="fig:doc2vec-res1"}](files/doc2vec-4.png){width=".7\linewidth"}
+<figure style="width: 500px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-4.png" alt="">
+  <figcaption>Results of doc2vec on sentiment analysis for the Stanford treebank
+task.</figcaption>
+</figure> 
 
-![Results of doc2vec on sentiment analysis for the IMDB
-task.[]{data-label="fig:doc2vec-res2"}](files/doc2vec-5.png){width=".7\linewidth"}
+<figure style="width: 500px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-5.png" alt="">
+  <figcaption>Results of doc2vec on sentiment analysis for the IMDB
+task.</figcaption>
+</figure> 
 
 ### Summary of Skip-thought Vectors
 
@@ -269,9 +275,12 @@ with a goal of reconstructing surrounding sentences given an input
 sentence, such that similar sentences are mapped to similar vector
 representations (Figure \[fig:skipthoughts-1\]).
 
-![Model architecture for skip-thoughts vectors. Colors represent sharing
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-1.png" alt="">
+  <figcaption>Model architecture for skip-thoughts vectors. Colors represent sharing
 of parameters. Unconnected arrows are attached to the output of the
-encoder.[]{data-label="fig:skipthoughts-1"}](files/skipthoughts-1.png){width=".8\linewidth"}
+encoder.</figcaption>
+</figure> 
 
 The encoder maps words to sentences using an RNN with GRU activation,
 while the decoder generates surrounding sentences. If $w_i^1...w_i^n$
@@ -285,12 +294,12 @@ gate.
 
 
 {% raw %}
-$$\begin{aligned}
+$$\begin{align}
     r^t &= \sigma(W_rx^t + U_r h^{t-1}) \\
     z^t &= \sigma (W_z x^t + U_z h^{t-1}) \\
     \bar h^t &= tanh(Wx^t + U(r^t \cdot h^{t-1})) \\
     h^t &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t
-    \end{aligned}$$
+    \end{align}$$
 {% endraw %}
 
 
@@ -305,13 +314,13 @@ encoded middle sentence.
 
 
 {% raw %}
-$$\begin{aligned}
+$$\begin{align}
     r^t &= \sigma(W_r^d x^{t-1} + U_r^d h^{t-1} _  C_r h_i) \\
     z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\
     \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\
     h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\
     P(w^t_{i+1}|w^{<t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
-    \end{aligned}$$
+    \end{align}$$
 {% endraw %}
 
 
