@@ -152,8 +152,11 @@ in parallel. Additionally, RNNs do not adequately model long-term
 dependencies, such as when a word’s meaning depends upon a word many
 words before or after it in the phrase.
 
-![Diagrammatical framework for transformer architecture
-[@attention]((site.url}}{{site.baseurl}}/assets/images/blog-emb/attention-1.png){:.align-center}
+
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/attention-1.png" alt="">
+  <figcaption>Diagrammatical framework for transformer architecture</figcaption>
+</figure> 
 
 The transformer [@attention] directly learns these dependencies rather
 than relying on the hidden state and the forget gates. In other words,
@@ -173,7 +176,11 @@ simply averaging them. The multi-head attention is combined with
 feed-forward layers to construct an encoder-decoder model as shown in
 \[fig:attention-1\].
 
+{% raw %}
+
 $$Att(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
+
+{% endraw %}
 
 Presentation of papers
 ----------------------
