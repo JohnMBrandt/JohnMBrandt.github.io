@@ -177,9 +177,7 @@ feed-forward layers to construct an encoder-decoder model as shown in
 \[fig:attention-1\].
 
 {% raw %}
-
 $$Att(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
-
 {% endraw %}
 
 Presentation of papers
@@ -201,15 +199,26 @@ the latter. Specifically, word2vec learns the objective in
 \[fig:word2vec-obj\] while doc2vec learns the objective in
 \[fig:doc2vec-obj\].
 
+{% raw %}
 $$y=b+Uh(w_{t-k}, ..., w_{t+k};W)$$
+{% endraw %}
 
+{% raw %}
 $$y=b+Uh(w_{t-k}, ..., w_{t+k};W,D)$$
+{% endraw %}
 
-![Diagrammatical framework for distributed memory approach to
-doc2vec.[]{data-label="fig:doc2vec2"}](files/doc2vec-2.png){width=".5\linewidth"}
 
-![Diagrammatical framework for distributed bag of words approach to
-doc2vec.[]{data-label="fig:doc2vec3"}](files/doc2vec-3.png){width=".5\linewidth"}
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-2" alt="">
+  <figcaption>Diagrammatical framework for distributed memory approach to
+doc2vec.</figcaption>
+</figure> 
+
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-3.png" alt="">
+  <figcaption>Diagrammatical framework for distributed bag of words approach to
+doc2vec.</figcaption>
+</figure> 
 
 Figure \[fig:doc2vec2\] shows the distributed memory approach to
 doc2vec. Randomly initialized word vectors and paragraph vectors are
