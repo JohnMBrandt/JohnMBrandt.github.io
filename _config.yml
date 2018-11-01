@@ -245,6 +245,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+  blog:
+    output: true
+    permalink: /blog/:path/
 
 # Defaults
 defaults:
@@ -269,4 +272,13 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  
   
