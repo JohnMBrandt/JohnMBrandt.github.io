@@ -20,11 +20,8 @@ gallery:
 ---
 
 
-Sentence similarity and embeddings
-==================================
-
-\[sec:level1\] Introduction
----------------------------
+Introduction
+-------------
 
 Sentence similarity and embeddings are an extension of character-level
 and word-level embeddings that are common building blocks of downstream
@@ -50,16 +47,9 @@ to sentence form, and transfer learning. This chapter will discuss four
 such methods, namely doc2vec, skip-thoughts, quick-thoughts, and the
 universal sentence encoder.
 
-\[keywords\] Keywords
----------------------
 
-word embeddings, word2vec, gloVe, doc2vec, gated recurrent units,
-recurrent neural networks, skip-thoughts, quick-thoughts, attention,
-transformers, transfer learning, universal sentence embedding, sentence
-embeddings
-
-\[sec:level3\] Background material
-----------------------------------
+Background material
+--------------------
 
 ### word2vec
 
@@ -163,7 +153,7 @@ dependencies, such as when a word’s meaning depends upon a word many
 words before or after it in the phrase.
 
 ![Diagrammatical framework for transformer architecture
-[@attention].[]{data-label="fig:attention-1"}](files/attention-1.png){width=".5\linewidth"}
+[@attention]((site.url}}{{site.baseurl}}/assets/images/blog-emb/attention-1.png){:.align-center}
 
 The transformer [@attention] directly learns these dependencies rather
 than relying on the hidden state and the forget gates. In other words,
@@ -185,8 +175,8 @@ feed-forward layers to construct an encoder-decoder model as shown in
 
 $$Att(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
 
-\[sec:level4\] Presentation of papers
--------------------------------------
+Presentation of papers
+----------------------
 
 ### Summary of Distributed Representations of Sentences and Documents
 
@@ -525,8 +515,8 @@ binary phrase-level sentence classification task with varying sizes of
 training
 data.[]{data-label="fig:use-2"}](files/use-3.png){width="1\linewidth"}
 
-\[sec:level5\] Comparison of Papers
------------------------------------
+Comparison of Papers
+---------------------
 
 Of the four discussed methods, doc2vec [@conf/icml/LeM14] is the most
 similar to the word2vec word embeddings, simply adding a learned vector
@@ -550,8 +540,8 @@ diverges from the other three papers by focusing on transfer learning
 with multi-task learning and by providing an architecture that eschews
 recurrance for the attention-based transformer.
 
-\[sec:level6\] Summary
-----------------------
+Summary
+-------
 
 In this chapter we have introduced four different methods for computing
 sentence embeddings and discussed their mathematical underpinnings. We
