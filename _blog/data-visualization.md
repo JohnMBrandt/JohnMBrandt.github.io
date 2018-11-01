@@ -1,6 +1,6 @@
 ---
-title: "Static Data Visualization"
-excerpt: "Samples of static data visualization in R."
+title: "Data cleaning"
+excerpt: "Munging and wrangling messy datasets in base R"
 header:
   teaser: /assets/images/visualization-th.png
 share: false
@@ -18,5 +18,3 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
-
-{% include visualization.html %}

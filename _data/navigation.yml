@@ -8,10 +8,10 @@ main:
     url: /portfolio/
   - title: "Blog"
     url: /blog/
-  - title: "Posts"
-    url: /collection-archive/
-  #- title: "Search"
-  #  url: /search/
+  #- title: "Posts"
+  #  url: /collection-archive/
+  - title: "Search"
+    url: /search/
 
 # sidebar navigation list sample
 sidebar-sample:
