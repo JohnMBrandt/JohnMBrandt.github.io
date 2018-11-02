@@ -294,12 +294,14 @@ gate.
 
 
 {% raw %}
-\begin{align}
-    r^t &= \sigma(W_rx^t + U_r h^{t-1}) \\
-    z^t &= \sigma (W_z x^t + U_z h^{t-1}) \\
-    \bar h^t &= tanh(Wx^t + U(r^t \cdot h^{t-1})) \\
+$$
+  \begin{align}
+    r^t &= \sigma(W_rx^t + U_r h^{t-1}) \\\\
+    z^t &= \sigma (W_z x^t + U_z h^{t-1}) \\\\
+    \bar h^t &= tanh(Wx^t + U(r^t \cdot h^{t-1})) \\\\
     h^t &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t
-    \end{align}
+  \end{align}
+$$
 {% endraw %}
 
 
@@ -314,13 +316,15 @@ encoded middle sentence.
 
 
 {% raw %}
-\begin{align}
-    r^t &= \sigma(W_r^d x^{t-1} + U_r^d h^{t-1} _  C_r h_i) \\
-    z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\
-    \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\
-    h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\
+$$
+  \begin{align}
+    r^t &= \sigma(W_r^d x^{t-1} + U_r^d h^{t-1} _  C_r h_i) \\\\
+    z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\\\
+    \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\\\
+    h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\\\
     P(w^t_{i+1}|w^{<t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
-    \end{align}
+  \end{align}
+$$ 
 {% endraw %}
 
 
