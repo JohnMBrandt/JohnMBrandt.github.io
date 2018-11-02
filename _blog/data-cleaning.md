@@ -1,8 +1,8 @@
 ---
 title: "Data cleaning"
-excerpt: "Munging and wrangling messy datasets in base R"
+excerpt: "Cleaning messy datasets in base R"
 header:
-  teaser: /assets/images/visualization-th.png
+  teaser: /assets/images/data-cleaning.png
 share: false
 sidebar:
   - title: "Resources Used"
@@ -18,3 +18,5 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
+
+{% include data-cleaning.html %}
