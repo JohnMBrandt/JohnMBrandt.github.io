@@ -493,13 +493,21 @@ performance averaged over all classification benchmarks from 86.7% to
 with supervised models on the eight evaluation tasks. </figcaption>
 </figure>
 
-![Comparison of the performance of multichannel quick thoughts (MC-QT)
-with supervised models on the eight evaluation
-tasks.[]{data-label="fig:quickthoughts-res2"}](files/quickthoughts-3.png){width="1\linewidth"}
 
-![Comparison of the performance of an ensemble of quick thoughts models
+<figure class="align-center" style="width: 600px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-3.png" alt="">
+  <figcaption>Comparison of the performance of multichannel quick thoughts (MC-QT)
+with supervised models on the eight evaluation
+tasks</figcaption>
+</figure> 
+
+
+<figure class="align-center" style="width: 600px">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-4.png" alt="">
+  <figcaption>Comparison of the performance of an ensemble of quick thoughts models
 with task-specific supervised models on the eight evaluation
-tasks.[]{data-label="fig:quickthoughts-res3"}](files/quickthoughts-4.png){width="1\linewidth"}
+tasks.</figcaption>
+</figure> 
 
 ### Summary of Universal Sentence Encoder
 
@@ -559,11 +567,14 @@ word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on six
 evaluation tasks. </figcaption>
 </figure>
 
-![Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/use-3.png" alt="">
+  <figcaption>Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
 word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on the
 binary phrase-level sentence classification task with varying sizes of
 training
-data.[]{data-label="fig:use-2"}](files/use-3.png){width="1\linewidth"}
+data.</figcaption>
+</figure>
 
 Comparison of Papers
 ---------------------
@@ -573,8 +584,7 @@ similar to the word2vec word embeddings, simply adding a learned vector
 unique to each paragraph to the training and inference stage. While this
 approach improved upon sentence representations that simply average or
 weight word embeddings, doc2vec does not explicitly model word order nor
-does it account for polysemy. Skip-thoughts
-[@DBLP:journals/corr/KirosZSZTUF15] addresses the issue of
+does it account for polysemy. Skip-thoughts addresses the issue of
 generalizability and the need for inference of doc2vec embeddings by
 abstracting the skip-gram approach of word2vec to the sentence level,
 allowing this approach to model both word order and account for the
