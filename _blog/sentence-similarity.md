@@ -359,9 +359,12 @@ active and passive verbs. However, skip-thoughts fails to identify small
 distinctions that affect meaning, such as polysemes and more complicated
 verb changes.
 
-![Example predictions from the SICK evaluation task. GT is the
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-5.png" alt="">
+  <figcaption>Example predictions from the SICK evaluation task. GT is the
 human-scored relatedness from 1 to
-5.[]{data-label="fig:skip-thoughts-sr"}](files/skipthoughts-5.png){width="1\linewidth"}
+5.</figcaption>
+</figure>
 
 Similarly to the semantic relatedness task, previous paraphrase
 detection models made extensive use of feature engineering. The goal of
@@ -389,9 +392,12 @@ shown in Figure \[fig:skipthoughts-res-f\], demonstrating that
 skip-thoughts performs similarly to bag-of-words baselines but worse
 than models trained directly for classification.
 
-![Classification accuracy on five classification tasks, grouped into,
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-8.png" alt="">
+  <figcaption>Classification accuracy on five classification tasks, grouped into,
 from top to bottom, bag-of-words, supervised, paragraph vector, and
-skip-thoughts.[]{data-label="fig:skipthoughts-res-f"}](files/skipthoughts-8.png){width=".7\linewidth"}
+skip-thoughts.</figcaption>
+</figure>
 
 ### Summary of An Efficient Framework for Learning Sentence Representations
 
@@ -406,9 +412,11 @@ conceptual basis for this approach is that the topic or meaning of a
 sentence is encoded in the information that allows an embedding to
 predict the information about contextual sentences.
 
-![Conventional sentence embedding approaches (a) and the proposed
-approach of quick thoughts
-(b).[]{data-label="fig:quickthoughts-1"}](files/quickthoughts-1.png){width=".8\linewidth"}
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-1.png" alt="">
+  <figcaption>Conventional sentence embedding approaches (a) and the proposed
+approach of quick thoughts (b)</figcaption>
+</figure>
 
 Given an input sentence, quick-thoughts calculates the probability that
 each candidate sentence is a context sentence within the input with the
@@ -480,11 +488,11 @@ models, as reducing the embedding size from 5,600 to 1,600 only drops
 performance averaged over all classification benchmarks from 86.7% to
 84.6%.
 
-![Comparison of quick-thoughts with other unsupervised approaches on the
-movie reviews (MR), product reviews (CR), subjectivity (SUBJ, opinion
-polarity (MPQA), question type classification (TREC), paraphrase
-identification (MSRP), and semantic relatedness (SICK)
-tasks.[]{data-label="fig:quickthoughts-res1"}](files/quickthoughts-2.png){width="1\linewidth"}
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-2.png" alt="">
+  <figcaption>Comparison of the performance of multichannel quick thoughts (MC-QT)
+with supervised models on the eight evaluation tasks. </figcaption>
+</figure>
 
 ![Comparison of the performance of multichannel quick thoughts (MC-QT)
 with supervised models on the eight evaluation
