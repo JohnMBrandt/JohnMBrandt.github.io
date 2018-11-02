@@ -121,7 +121,7 @@ combination of its constituent words.
 
 ### Gated recurrent units
 
-Gated recurrent units (GRUs) [@gru] are a gating method used in
+Gated recurrent units (GRUs) are a gating method used in
 recurrent neural networks. GRUs are similar to long short-term memory
 units, but have fewer parameters, perform better on smaller datasets,
 and do not have an output gate. GRUs have two gates: a reset gate and an
@@ -132,7 +132,7 @@ recurrent neural network.
 
 ### Deep averaging network
 
-The deep averaging network (DAN) [@dan] is a simple bag of words deep
+The deep averaging network (DAN) is a simple bag of words deep
 neural network that performs similarly to syntactically-aware models.
 DAN averages input word embeddings for a sequence, passes the average
 through feed-forward layers, and then linearly classifies the final
@@ -267,7 +267,7 @@ task.</figcaption>
 
 ### Summary of Skip-thought Vectors
 
-Skip thoughtsm[@DBLP:journals/corr/KirosZSZTUF15] is an off-the-shelf
+Skip thoughts is an off-the-shelf
 unsupervised sentence encoder trained on 11,000 fiction and non-fiction
 books that addresses issues of generalizability in doc2vec and previous
 recursive and recurrent methods. The encoder-decoder model is formulated
@@ -287,7 +287,7 @@ while the decoder generates surrounding sentences. If \\( w_i^1...w_i^n \\)
 are words in a sentence, and \\( x_i...x_n \\) are the word2vec embeddings for
 each word, the encoder produces a hidden state \\( h_i^t \\) which is the
 sentence representation up to word t. Thus, \\( h_i^n \\) is the
-representation for a sentence with $n$ words. The encoder formula is
+representation for a sentence with \\(n\\) words. The encoder formula is
 elaborated in Figure \[fig:skipthoughts-encoder\], where \\(\bar h\\) is the
 proposed state update, \\(z\\) is the update gate, and \\(r\\) is the reset
 gate.
@@ -304,7 +304,7 @@ $$\begin{align}
 
 
 The decoder (\[fig:skipthoughts-decoder\] is similar to the encoder
-except it introduces matrices \\(C_z \\), $C_r$, and $C$. These bias the
+except it introduces matrices \\(C_z \\), \\(C_r\\), and \\(C\\). These bias the
 update, reset, and hidden states by the sentence vector. There are
 separate decoders for the previous and the next sentence, which share
 parameters except for the vocabulary matrix. The objective, shown in
@@ -423,11 +423,11 @@ equation in Figure \[fig:quickthoughts-obj\]. The authors construct
 minibatches of 400 contiguous sentences, where all the sentences
 constitute the candidate pool S~cand~, which contains one context and
 many non-context sentences. In \[fig:quickthoughts-prob\], \\(c\\) is a
-scoring function that is empirically chosen as the inner product of $u$
-and $v$ in order to force the encoder to not rely upon a heavily
+scoring function that is empirically chosen as the inner product of \\(u\\)
+and \\(v\\) in order to force the encoder to not rely upon a heavily
 engineered scoring function. The functions \\(f\\) and \\(g\\) are recurrent
 neural networks with GRU activation and no shared parameters. The
-outputs of $f$ and $g$ are concatenated at test time. The objective of
+outputs of \\(f\\) and \\(g\\) are concatenated at test time. The objective of
 quick-thoughts is to maximize the sum of the log probability of
 correctly identifying the context sentence for all minibatches of all
 input sentences (Equation \[fig:quickthoughts-obj\]).
@@ -450,8 +450,8 @@ sentence, though it would be possible to choose a wider context window.
 The RNNs are single-layered with randomly initialized GRU weights and
 word embeddings randomly initialized from -0.1 to 0.1. The authors test
 multiple versions of quick-thoughts. Uni-QT uses uni-directional RNNs
-for $f$ and $g$, bi-QT concatenates the forward and backward RNNs for
-$f$ and $g$, and combine-QT concatenates the embeddings from uni-QT and
+for \\(f\\) and \\(g\\), bi-QT concatenates the forward and backward RNNs for
+\\(f\\) and \\(g\\), and combine-QT concatenates the embeddings from uni-QT and
 bi-QT. Quick-thoughts is also trained using pre-trained word vectors,
 randomly initialized and learned word vectors, and a combination of
 pre-trained and learned word vectors referred to as MC-QT.
