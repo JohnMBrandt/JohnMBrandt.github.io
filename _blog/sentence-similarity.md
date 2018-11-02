@@ -89,9 +89,9 @@ concatenate the representations of words in each of their contexts. This
 context is optimized such that the log co-occurrence of two words is
 approximately equal to the dot product of their embeddings. As shown in
 figure \[fig:glove-obj\], this can be modelled as a weighted least
-squares objective, where a weighting function $f(X_{ij})$ is used to
+squares objective, where a weighting function \\( f(X_{ij}) \\) is used to
 minimize the dot product minus the log co-occurrence of each word pair.
-This weighting function is  \\($\frac{x}{x_{max}}^{0.75}$ \\), where x is the
+This weighting function is  \\( \frac{x}{x_{max}}^{0.75} \\), where x is the
 word co-occurrence frequency.
 
 $$J=\sum\limits_{i,j=1} f(X_{ij})(w^t_i w_j+b_i+b_j-log X_{ij})^2$$
@@ -283,13 +283,13 @@ encoder.</figcaption>
 </figure> 
 
 The encoder maps words to sentences using an RNN with GRU activation,
-while the decoder generates surrounding sentences. If $w_i^1...w_i^n$
-are words in a sentence, and $x_i...x_n$ are the word2vec embeddings for
-each word, the encoder produces a hidden state $h_i^t$ which is the
-sentence representation up to word t. Thus, $h_i^n$ is the
+while the decoder generates surrounding sentences. If \\( w_i^1...w_i^n \\)
+are words in a sentence, and \\( x_i...x_n \\) are the word2vec embeddings for
+each word, the encoder produces a hidden state \\( h_i^t \\) which is the
+sentence representation up to word t. Thus, \\( h_i^n \\) is the
 representation for a sentence with $n$ words. The encoder formula is
-elaborated in Figure \[fig:skipthoughts-encoder\], where $\bar h$ is the
-proposed state update, $z$ is the update gate, and $r$ is the reset
+elaborated in Figure \[fig:skipthoughts-encoder\], where \\(\bar h\\) is the
+proposed state update, \\(z\\) is the update gate, and \\(r\\) is the reset
 gate.
 
 
@@ -304,7 +304,7 @@ $$\begin{align}
 
 
 The decoder (\[fig:skipthoughts-decoder\] is similar to the encoder
-except it introduces matrices $C_z$, $C_r$, and $C$. These bias the
+except it introduces matrices \\(C_z \\), $C_r$, and $C$. These bias the
 update, reset, and hidden states by the sentence vector. There are
 separate decoders for the previous and the next sentence, which share
 parameters except for the vocabulary matrix. The objective, shown in
@@ -422,10 +422,10 @@ each candidate sentence is a context sentence within the input with the
 equation in Figure \[fig:quickthoughts-obj\]. The authors construct
 minibatches of 400 contiguous sentences, where all the sentences
 constitute the candidate pool S~cand~, which contains one context and
-many non-context sentences. In \[fig:quickthoughts-prob\], $c$ is a
+many non-context sentences. In \[fig:quickthoughts-prob\], \\(c\\) is a
 scoring function that is empirically chosen as the inner product of $u$
 and $v$ in order to force the encoder to not rely upon a heavily
-engineered scoring function. The functions $f$ and $g$ are recurrent
+engineered scoring function. The functions \\(f\\) and \\(g\\) are recurrent
 neural networks with GRU activation and no shared parameters. The
 outputs of $f$ and $g$ are concatenated at test time. The objective of
 quick-thoughts is to maximize the sum of the log probability of

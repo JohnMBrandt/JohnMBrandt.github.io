@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "John Brandt"
 title_separator          : "-"
 name                     : "John Brandt"
-description              : "Data Scientist and Environmentalist"
+description              : "Data Scientist and Environmentalist, current master's candidate at Yale University"
 url                      : "https://johnbrandt.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : johnmbrandt/johnmbrandt.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "John Brandt"
   avatar           : /assets/images/avatar.jpg
-  bio              : "I love to visualize and use data in ways that address environmental and social problems."
+  bio              : "Social impact-driven data scientist who is passionate about driving better business and policy decisions."
   location         : "Yale University"
   email            : john.brandt@yale.edu
   uri              :
