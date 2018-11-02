@@ -2,7 +2,7 @@
 title: "Network analysis in ArcPython"
 excerpt: "Identifies regions underserving target demographics with road network analysis."
 header:
-  teaser: assets/images/dem-service-area-th.png
+  teaser: assets/images/network-2.png
 share: false
 sidebar:
   - title: "Tools Used"

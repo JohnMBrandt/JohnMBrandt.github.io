@@ -28,11 +28,11 @@ feature_row:
     excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in 30 global cities. "
     url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
-  - image_path: /assets/images/dem-service-area-th.png
+  - image_path: /assets/images/network-2.png
     alt: "placeholder image 2"
     title: "Network analysis in ArcPython"
     excerpt: 'Sample of GIS work'
-    url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
+    url: "https://johnbrandt.org/portfolio/demography-based-service-area/"
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
     title: "Statistics and Machine Learning"
