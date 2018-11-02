@@ -16,7 +16,7 @@ feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
     title: "Identifying micro-economic impacts of pollution with big data"
-    excerpt: "Leveraging 150 million geolocated credit card transactions to identify a multibillion-dollar impact of air pollution on consumer spending, which received an award from the United Nations"
+    excerpt: "Modeling 150 million geolocated credit card transactions to identify a novel multibillion-dollar economic impact of air pollution"
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/retriever-th.png
     alt: "placeholder image 2"
@@ -31,7 +31,7 @@ feature_row2:
   - image_path: /assets/images/network-2.png
     alt: "placeholder image 2"
     title: "Network analysis in ArcPython"
-    excerpt: 'Sample of GIS work'
+    excerpt: 'Identifies regions underserving target demographics with road network analysis'
     url: "https://johnbrandt.org/portfolio/demography-based-service-area/"
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
