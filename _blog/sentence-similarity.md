@@ -53,7 +53,7 @@ Background material
 
 ### word2vec
 
-Word2vec ([@word2vec]) uses surrogate shallow neural networks to
+Word2vec uses surrogate shallow neural networks to
 represent individual words as a dense vector. Word2vec can be
 implemented in two ways, either through the skipgram or continuous bag
 of words (CBOW) approaches. The skipgram approach uses a shallow neural
@@ -145,7 +145,7 @@ sentiment classification and question answering.
 
 ### Self attention
 
-Self attention [@attention] provides an alternative to RNN
+Self attention provides an alternative to RNN
 architectures, which are slower and more computationally intensive.
 Because RNNs are sequential, it is impossible to learn representations
 in parallel. Additionally, RNNs do not adequately model long-term
@@ -158,7 +158,7 @@ words before or after it in the phrase.
   <figcaption>Fig 1. Diagrammatical framework for transformer architecture</figcaption>
 </figure> 
 
-The transformer [@attention] directly learns these dependencies rather
+The transformer directly learns these dependencies rather
 than relying on the hidden state and the forget gates. In other words,
 the transformer removes the dependence on the distance between words
 when modeling dependencies between words. The transformer is an
@@ -322,7 +322,7 @@ $$
     z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\\\
     \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\\\
     h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\\\
-    P(w^t_{i+1}|w^{<t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
+    P(w^t_{i+1}|w^{< t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
   \end{align}
 $$ 
 {% endraw %}
@@ -404,7 +404,7 @@ skip-thoughts.</figcaption>
 
 ### Summary of An Efficient Framework for Learning Sentence Representations
 
-Quick thoughts [@logeswaran2018an] are unsupervised sentence
+Quick thoughts are unsupervised sentence
 representations that address a number of issues with previous sentence
 embeddings: the inability to model multiple ways of expressing ideas,
 sensitivity to sentence structure, and high computational costs. Rather
@@ -515,7 +515,7 @@ tasks.</figcaption>
 
 Due to the scarcity of training data, many NLP tasks rely on transfer
 learning by using pre-trained word or sentence embeddings. The universal
-sentence encoder (USE) [@use] is a sentence embedding designed for
+sentence encoder (USE) is a sentence embedding designed for
 transfer learning with a model structure that targets weaknesses in
 applying pre-trained embeddings to new tasks. USE can be implemented
 with a transformer architecture or with a deep averaging network. These
@@ -523,14 +523,14 @@ variants are designed to allow trade-offs between computational
 efficiency and accuracy.
 
 The transformer-based architecture has high accuracy but greater
-computational requirements. Self-attention [@attention] is used to
+computational requirements. Self-attention is used to
 create sentence embeddings that account for word order and importance.
 The model uses multi-task learning to foster generalizability by
 updating a single encoder based on performance on a skip-thought-like
 task using the transformer in place of the LSTM, a conversational
 input-response task, and supervised classification. The deep averaging
 network (DAN) approach generates a sentence encoding using the
-architecture proposed by [@dan], sacrificing accuracy for reduced
+architecture proposed by the authors, sacrificing accuracy for reduced
 compute time.
 
 USE is trained on a variety of web data, including Wikipedia, news,
@@ -596,7 +596,7 @@ surface form of sentences rather than encoding its meaning, and posit
 that the information that allows a vector representation to predict the
 context of a sentence is a better representation of its meaning. Indeed,
 quick thoughts outperforms skip thoughts while reducing training time by
-more than an order of magnitude. The universal sentence encoder [@use]
+more than an order of magnitude. The universal sentence encoder 
 diverges from the other three papers by focusing on transfer learning
 with multi-task learning and by providing an architecture that eschews
 recurrance for the attention-based transformer.
