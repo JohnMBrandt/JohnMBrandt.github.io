@@ -19,4 +19,4 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-<iframe src="https://johnmbrandt.shinyapps.io/rshiny-demo/" width="1200" height = "1000"></iframe>
+<iframe src="https://johnmbrandt.shinyapps.io/rshiny-demo/" width="1200" height = "850"></iframe>
