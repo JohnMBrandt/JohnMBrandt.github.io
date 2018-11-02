@@ -2,11 +2,11 @@
 title: "Sentence embeddings"
 excerpt: "Review of recent advances in sentence embeddings"
 header:
-  teaser: /assets/images/visualization-th.png
+  teaser: /assets/images/blog-emb/quickthoughts-1.png
 share: false
 sidebar:
   - title: "Resources Used"
-    text: "ggplot2"
+    text: "Tensorflow, LateX"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -91,7 +91,7 @@ approximately equal to the dot product of their embeddings. As shown in
 figure \[fig:glove-obj\], this can be modelled as a weighted least
 squares objective, where a weighting function $f(X_{ij})$ is used to
 minimize the dot product minus the log co-occurrence of each word pair.
-This weighting function is $\frac{x}{x_{max}}^{0.75}$, where x is the
+This weighting function is  \\($\frac{x}{x_{max}}^{0.75}$ \\), where x is the
 word co-occurrence frequency.
 
 $$J=\sum\limits_{i,j=1} f(X_{ij})(w^t_i w_j+b_i+b_j-log X_{ij})^2$$
@@ -362,8 +362,7 @@ verb changes.
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-5.png" alt="">
   <figcaption>Example predictions from the SICK evaluation task. GT is the
-human-scored relatedness from 1 to
-5.</figcaption>
+human-scored relatedness from 1 to 5.</figcaption>
 </figure>
 
 Similarly to the semantic relatedness task, previous paraphrase
@@ -553,10 +552,12 @@ and accuracy. Ultimately, USE provides sentence embeddings that perform
 well when transferred to a variety of NLP tasks and allow the end-user
 to choose between accuracy and compute time.
 
-![Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
+<figure style="width: 700px" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/use-2.png" alt="">
+  <figcaption>Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
 word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on six
-evaluation
-tasks.[]{data-label="fig:use-1"}](files/use-2.png){width="1\linewidth"}
+evaluation tasks. </figcaption>
+</figure>
 
 ![Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
 word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on the
