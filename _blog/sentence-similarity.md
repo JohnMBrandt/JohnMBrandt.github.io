@@ -155,7 +155,7 @@ words before or after it in the phrase.
 
 <figure class="align-center" style="width: 600px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/attention-1.png" alt="">
-  <figcaption>Diagrammatical framework for transformer architecture</figcaption>
+  <figcaption>Fig 1. Diagrammatical framework for transformer architecture</figcaption>
 </figure> 
 
 The transformer [@attention] directly learns these dependencies rather
@@ -169,12 +169,12 @@ keys, values, and queries instead of word tokens. Typically, the keys
 and values are the encoder hidden states, while the query is the
 previous output of the decoder. Different linear transformations are
 applied to the output of the scaled dot-product attention with the
-formula in \[fig:attention-formula\] to each “head” of attention. The
+formula below to each “head” of attention. The
 number of heads is a tuning parameter, and having multi-head attention
 allows the model to weight the representation subspaces rather than
 simply averaging them. The multi-head attention is combined with
 feed-forward layers to construct an encoder-decoder model as shown in
-\[fig:attention-1\].
+Figure 1.
 
 {% raw %}
 $$Att(Q,K,V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$$
@@ -185,7 +185,7 @@ Presentation of papers
 
 ### Summary of Distributed Representations of Sentences and Documents
 
-Doc2vec [@conf/icml/LeM14] learns embeddings for variable-length pieces
+Doc2vec learns embeddings for variable-length pieces
 of texts by predicting the next word in a sentence using shared word
 vectors to train a set of unique document vectors. In this sense,
 “document”, “paragraph” and “sentence” are equivalent, simply meaning
@@ -195,13 +195,13 @@ Similar to word2vec, doc2vec can be constructed with either of two
 learning objectives: distributed memory and distributed bag of words.
 The only difference between doc2vec and word2vec is that the weights
 depend on the words and documents in the former and just the words in
-the latter. Specifically, word2vec learns the objective in
-\[fig:word2vec-obj\] while doc2vec learns the objective in
-\[fig:doc2vec-obj\].
+the latter. Specifically, word2vec learns:
 
 {% raw %}
 $$y=b+Uh(w_{t-k}, ..., w_{t+k};W)$$
 {% endraw %}
+
+while doc2vec learns:
 
 {% raw %}
 $$y=b+Uh(w_{t-k}, ..., w_{t+k};W,D)$$
@@ -210,17 +210,17 @@ $$y=b+Uh(w_{t-k}, ..., w_{t+k};W,D)$$
 
 <figure class="align-center" style="width: 300px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-2.png" alt="">
-  <figcaption>Diagrammatical framework for distributed memory approach to
+  <figcaption>Fig 2. Diagrammatical framework for distributed memory approach to
 doc2vec.</figcaption>
 </figure> 
 
 <figure class="align-center" style="width: 300px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-3.png" alt="">
-  <figcaption>Diagrammatical framework for distributed bag of words approach to
+  <figcaption>Fig 3. Diagrammatical framework for distributed bag of words approach to
 doc2vec.</figcaption>
 </figure> 
 
-Figure \[fig:doc2vec2\] shows the distributed memory approach to
+Figure 2 shows the distributed memory approach to
 doc2vec. Randomly initialized word vectors and paragraph vectors are
 used to predict the next word in a sentence. At each training step, a
 fixed-length context is sampled from a random paragraph. The paragraph
@@ -233,7 +233,7 @@ inferred at prediction time. This is done by holding the rest of the
 parameters, word vectors, and softmax weights fixed, and adding more
 columns to the document matrix and gradient descending on it.
 
-Figure \[fig:doc2vec3\] shows the distributed bag of words approach to
+Figure 3 shows the distributed bag of words approach to
 doc2vec. In this case, the objective is to predict randomly sampled
 words from the paragraph given the paragraph vector. This model is
 simpler, requires less storage, and is similar to the skip-gram approach
@@ -245,9 +245,9 @@ concatenated paragraph embeddings for downstream tasks.
 Doc2vec significantly improves upon word vectors in a number of
 downstream NLP tasks. Error rates are reduced by 2.4 and 3% for
 sentiment tagging using the Stanford sentiment treebank dataset
-\[fig:doc2vec-res1\]. Do2vec achieves a 7.42% error rate on the IMBD
+(Figure 4). Do2vec achieves a 7.42% error rate on the IMBD
 sentiment classification task, a 16% relative and 1.3% overall
-improvement over the previous state of the art \[fig:doc2vec-res2\].
+improvement over the previous state of the art (Figure 5).
 Doc2vec also improves upon the previous state of the art for information
 retrieval. In an evaluation task with a goal of identifying pairs of
 similar sentences from triplet sets, doc2vec achieve an error rate of
@@ -255,13 +255,13 @@ just 3.82%, a 1.8% absolute and 30% relative improvement.
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-4.png" alt="">
-  <figcaption>Results of doc2vec on sentiment analysis for the Stanford treebank
+  <figcaption>Fig 4. Results of doc2vec on sentiment analysis for the Stanford treebank
 task.</figcaption>
 </figure> 
 
 <figure style="width: 500px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/doc2vec-5.png" alt="">
-  <figcaption>Results of doc2vec on sentiment analysis for the IMDB
+  <figcaption>Fig 5. Results of doc2vec on sentiment analysis for the IMDB
 task.</figcaption>
 </figure> 
 
@@ -273,11 +273,11 @@ books that addresses issues of generalizability in doc2vec and previous
 recursive and recurrent methods. The encoder-decoder model is formulated
 with a goal of reconstructing surrounding sentences given an input
 sentence, such that similar sentences are mapped to similar vector
-representations (Figure \[fig:skipthoughts-1\]).
+representations (Figure 6).
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-1.png" alt="">
-  <figcaption>Model architecture for skip-thoughts vectors. Colors represent sharing
+  <figcaption>Fig 6. Model architecture for skip-thoughts vectors. Colors represent sharing
 of parameters. Unconnected arrows are attached to the output of the
 encoder.</figcaption>
 </figure> 
@@ -294,16 +294,16 @@ gate.
 
 
 {% raw %}
-$$\begin{align}
+\begin{align}
     r^t &= \sigma(W_rx^t + U_r h^{t-1}) \\
     z^t &= \sigma (W_z x^t + U_z h^{t-1}) \\
     \bar h^t &= tanh(Wx^t + U(r^t \cdot h^{t-1})) \\
     h^t &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t
-    \end{align}$$
+    \end{align}
 {% endraw %}
 
 
-The decoder (\[fig:skipthoughts-decoder\] is similar to the encoder
+The decoder (see below figure) is similar to the encoder
 except it introduces matrices \\(C_z \\), \\(C_r\\), and \\(C\\). These bias the
 update, reset, and hidden states by the sentence vector. There are
 separate decoders for the previous and the next sentence, which share
@@ -314,13 +314,13 @@ encoded middle sentence.
 
 
 {% raw %}
-$$\begin{align}
+\begin{align}
     r^t &= \sigma(W_r^d x^{t-1} + U_r^d h^{t-1} _  C_r h_i) \\
     z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\
     \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\
     h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\
     P(w^t_{i+1}|w^{<t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
-    \end{align}$$
+    \end{align}
 {% endraw %}
 
 
@@ -351,7 +351,7 @@ generate a score of how related the sentences are based on human
 evaluation. Previous approaches used heavily feature engineered data
 learned specifically for the task. Skip-thoughts uses no feature
 engineering and is a general embedding, but performs on-par with the
-more complicated models. Figure \[fig:skip-thoughts-sr\] shows example
+more complicated models. Figure 7 shows example
 sentence pairs and compares the predicted and ground truth relatedness.
 Skip-thoughts performs well on many challenging cases, identifying
 differences due to negation, changing direct and indirect objects, and
@@ -361,7 +361,7 @@ verb changes.
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-5.png" alt="">
-  <figcaption>Example predictions from the SICK evaluation task. GT is the
+  <figcaption>Fig 7. Example predictions from the SICK evaluation task. GT is the
 human-scored relatedness from 1 to 5.</figcaption>
 </figure>
 
@@ -387,13 +387,13 @@ movie review sentiment (MR), customer product reviews (CR),
 subjectivity/objectivity classification (SUBJ), opinion polarity (MPQA),
 and question-type classification (TREC). All classification is done with
 a logistic regression regularized with an L2 penalty. The results are
-shown in Figure \[fig:skipthoughts-res-f\], demonstrating that
+shown in Figure 8, demonstrating that
 skip-thoughts performs similarly to bag-of-words baselines but worse
 than models trained directly for classification.
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/skipthoughts-8.png" alt="">
-  <figcaption>Classification accuracy on five classification tasks, grouped into,
+  <figcaption>Fig 8. Classification accuracy on five classification tasks, grouped into,
 from top to bottom, bag-of-words, supervised, paragraph vector, and
 skip-thoughts.</figcaption>
 </figure>
@@ -406,14 +406,14 @@ embeddings: the inability to model multiple ways of expressing ideas,
 sensitivity to sentence structure, and high computational costs. Rather
 than using a generative approach, quick thoughts uses a discriminative
 approximation to attempt to identify the embedding of a context sentence
-given a set of candidate sentences (Figure \[fig:quickthoughts-1\]). The
+given a set of candidate sentences (Figure 9). The
 conceptual basis for this approach is that the topic or meaning of a
 sentence is encoded in the information that allows an embedding to
 predict the information about contextual sentences.
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-1.png" alt="">
-  <figcaption>Conventional sentence embedding approaches (a) and the proposed
+  <figcaption>Fig 9. Conventional sentence embedding approaches (a) and the proposed
 approach of quick thoughts (b)</figcaption>
 </figure>
 
@@ -458,20 +458,18 @@ pre-trained and learned word vectors referred to as MC-QT.
 
 Quick-thoughts is evaluated on a number of classification tasks against
 bag-of-words, skip-thoughts, paragraph vectors, supervised methods, and
-task-specific supervised methods. Figure \[fig:quickthoughts-res1\]
-compares the performance of quick-thoughts with other unsupervised
+task-specific supervised methods. Figure 10 compares the performance of quick-thoughts with other unsupervised
 approaches. Combine-QT outperforms uni-QT and bi-QT on all tasks.
 Combining pre-trained and learned word vectors improves upon both the
 pre-trained and the learned word vectors models. Multichannel
 quick-thoughts improves upon the best skip-thoughts model on all tasks
 with just 8% the training time (28 versus 336 hours). Quick-thoughts
 also performs competitively against supervised methods (Figure
-\[fig:quickthoughts-res2\]), improving upon the best baseline
+11), improving upon the best baseline
 (InferSent) in six of eight cases despite not being supervised. An
 ensemble of weighted average predictions of models with variations in
 model type, embeddings, and training data performed competitively
-against task-specific supervised approaches (Figure
-\[fig:quickthoughts-res3\]). Quick-thoughts performs better than
+against task-specific supervised approaches (Figure 12). Quick-thoughts performs better than
 previous pre-trained unsupervised methods on image annotation and image
 search, improving upon skip-thoughts by between between 2 and 4%
 absolute accuracy, but fails to improve upon directly supervised models,
@@ -489,14 +487,14 @@ performance averaged over all classification benchmarks from 86.7% to
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-2.png" alt="">
-  <figcaption>Comparison of the performance of multichannel quick thoughts (MC-QT)
-with supervised models on the eight evaluation tasks. </figcaption>
+  <figcaption>Fig 10. Comparison of the performance of multichannel quick thoughts (MC-QT)
+with unsupervised models on the eight evaluation tasks. </figcaption>
 </figure>
 
 
 <figure class="align-center" style="width: 600px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-3.png" alt="">
-  <figcaption>Comparison of the performance of multichannel quick thoughts (MC-QT)
+  <figcaption>Fig 11. Comparison of the performance of multichannel quick thoughts (MC-QT)
 with supervised models on the eight evaluation
 tasks</figcaption>
 </figure> 
@@ -504,7 +502,7 @@ tasks</figcaption>
 
 <figure class="align-center" style="width: 600px">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/quickthoughts-4.png" alt="">
-  <figcaption>Comparison of the performance of an ensemble of quick thoughts models
+  <figcaption>Fig 12. Comparison of the performance of an ensemble of quick thoughts models
 with task-specific supervised models on the eight evaluation
 tasks.</figcaption>
 </figure> 
@@ -542,13 +540,12 @@ distance rather than cosine similarity. Hyperparameters are tuned with
 cross-validation and Vizier.
 
 The transformer architecture tends to outperform the DAN encoder,
-espsecially for tasks with limited training data sets (Figure
-\[fig:use-2\]) and models with pre-trained word embeddings tend to
+espsecially for tasks with limited training data sets (Figure 13) and models with pre-trained word embeddings tend to
 outperform those that learn word embeddings for tasks with small
 training data sets. While the transformer architecture performs
 remarkably better on small training sets than does DAN, the transformer
 only increases accuracy by one or two relative percentage points when
-sufficient training data is available (Figure \[fig:use-1\]).
+sufficient training data is available (Figure 14).
 
 The compute time of the transformer is quadratically related to the
 sentence length and training size, while the compute time for the DAN
@@ -562,14 +559,14 @@ to choose between accuracy and compute time.
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/use-2.png" alt="">
-  <figcaption>Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
+  <figcaption>Fig 13. Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
 word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on six
 evaluation tasks. </figcaption>
 </figure>
 
 <figure style="width: 700px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-emb/use-3.png" alt="">
-  <figcaption>Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
+  <figcaption>Fig 14. Comparison of transformer (USE\_T) and DAN (USE\_D) with pre-trained
 word embeddings (w2v w.e.) and learned word embeddigns (lrn w.e.) on the
 binary phrase-level sentence classification task with varying sizes of
 training
@@ -579,7 +576,7 @@ data.</figcaption>
 Comparison of Papers
 ---------------------
 
-Of the four discussed methods, doc2vec [@conf/icml/LeM14] is the most
+Of the four discussed methods, doc2vec is the most
 similar to the word2vec word embeddings, simply adding a learned vector
 unique to each paragraph to the training and inference stage. While this
 approach improved upon sentence representations that simply average or
@@ -588,7 +585,7 @@ does it account for polysemy. Skip-thoughts addresses the issue of
 generalizability and the need for inference of doc2vec embeddings by
 abstracting the skip-gram approach of word2vec to the sentence level,
 allowing this approach to model both word order and account for the
-context of adjacent sentences. Quick-thoughts [@logeswaran2018an] builds
+context of adjacent sentences. Quick-thoughts builds
 upon skip-thoughts by opting for a discriminative rather than generative
 approach. The authors suggest that skip-thoughts reconstructs the
 surface form of sentences rather than encoding its meaning, and posit
