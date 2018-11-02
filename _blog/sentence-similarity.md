@@ -322,14 +322,13 @@ $$
     z^t &= \sigma (W_z^d x^{t-1} + U_z h^{t-1} + C_z h_i) \\\\
     \bar h^t &= tanh(W^d x^{t-1} + U^d(r^t \cdot h^{t-1}) + C h_i) \\\\
     h^t_{i+1} &= (1 - z^t) \cdot h^{t-1} + z^t \cdot \bar h ^t \\\\
-    P(w^t_{i+1}|w^{< t}_{i+1}, h_i) &\propto exp(v_{w^t_{i+1}}v_{h^t_{i+1}})
   \end{align}
 $$ 
 {% endraw %}
 
 
 {% raw %}
-$$\sum\limits_{t}logP(w^t_{i+1}, h_i) + \sum\limits_{t}log P (w^t_{i-1}|w^{<t}{i-1}, h_i)$$
+$$\sum\limits_{t}logP(w^t_{i+1}, h_i) + \sum\limits_{t}log P (w^t_{i-1}|w^{< t}{i-1}, h_i)$$
 {% endraw %}
 
 Skip-thoughts also introduces a mechanism to expand vocabulary to
