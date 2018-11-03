@@ -24,8 +24,8 @@ feature_row:
     excerpt: "R package that automates policy analysis and identifies policy misalignment with neural embeddings"
     url: "https://github.com/wri/retrieveR"
   - image_path: /assets/images/uesi.png
-    title: "Interactive web design"
-    excerpt: "An open data web portal using Leaflet and d3 that monitors inclusivity and equity at a neighborhood scale in 30 global cities"
+    title: "Interactive web mapping"
+    excerpt: "An open data web portal that monitors inclusivity and equity at a neighborhood scale in 30 global cities"
     url: "https://datadrivenyale.github.io/urban-portal"
 feature_row2:
   - image_path: /assets/images/network-2.png
