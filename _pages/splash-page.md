@@ -33,12 +33,12 @@ feature_row2:
     title: "Network analysis in ArcPython"
     excerpt: 'Identifies regions underserving target demographics with road network analysis'
     url: "https://johnbrandt.org/portfolio/demography-based-service-area/"
-  - image_path: /assets/images/r-modeling.png
+  - image_path: /assets/images/ml-th.png
     alt: "placeholder image 2"
     title: "Predictive machine learning"
     excerpt: 'Neural networks, clustering, SVM, GBM, and ridge regression to predict energy generation.'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
-  - image_path: /assets/images/ml-th.png
+  - image_path: /assets/images/visualization-th.png
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
