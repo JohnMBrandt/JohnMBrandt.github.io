@@ -15,7 +15,7 @@ intro:
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
-    title: "Identifying micro-economic impacts of pollution with big data"
+    title: "Modeling economic impacts of pollution with big data"
     excerpt: "Modeling 150 million geolocated credit card transactions to identify a novel multibillion-dollar economic impact of air pollution"
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/retriever-th.png
