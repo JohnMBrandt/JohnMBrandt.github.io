@@ -35,14 +35,14 @@ feature_row2:
     url: "https://johnbrandt.org/portfolio/demography-based-service-area/"
   - image_path: /assets/images/r-modeling.png
     alt: "placeholder image 2"
-    title: "Statistics and Machine Learning"
-    excerpt: 'Linear and nonlinear modeling of longitudinal and skewed environmental datasets'
+    title: "Predictive machine learning"
+    excerpt: 'Neural networks, clustering, SVM, GBM, and ridge regression to predict energy generation.'
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
-  - image_path: /assets/images/visualization-th.png
+  - image_path: /assets/images/ml-th.png
     alt: "placeholder image 2"
     title: "Data Visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
-    url: "https://johnmbrandt.github.io/portfolio/data-visualization/"
+    url: "https://johnbrandt.org/portfolio/ensemble/"
 #feature_row3:
 #  - image_path: /assets/images/gisportfolio.png
 #    alt: "placeholder image 2"
