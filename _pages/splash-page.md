@@ -22,7 +22,7 @@ feature_row:
     alt: "placeholder image 2"
     title: "Automating policy analysis"
     excerpt: "R package that automates policy analysis and identifies policy misalignment with neural embeddings"
-    url: "https://github.com/wri/retrieveR"
+    url: "https://johnbrandt.org/portfolio/retrieveR/"
   - image_path: /assets/images/uesi.png
     title: "Interactive web mapping"
     excerpt: "An open data web portal that monitors inclusivity and equity at a neighborhood scale in 30 global cities"
