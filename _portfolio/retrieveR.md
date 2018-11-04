@@ -10,15 +10,13 @@ sidebar:
 
 ---
 
-# retrieveR
-
 ## Overview
 
 retrieveR is a system for automating information retrieval from a corpus of documents. 
 
 ## Installation instructions
 
-R can be downloaded from [this link](https://cran.r-project.org/bin/windows/base/). Once it is downloaded, open up the 32-bit version (i386, as WRI computers only seem to have 32-bit version of Java). Then, you can proceed to installing the package by running the following lines of code. Copy and paste them one at a time and press enter.
+RetrieveR can be installed with the `install_github` function in the `devtools` package.
 
 ```r
 install.packages("devtools")
