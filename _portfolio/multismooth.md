@@ -1,6 +1,6 @@
 ---
 title: "Time series kernal smoothing"
-excerpt: "R package for calculating and visualizing timeseries multivariate kernal smoothing"
+excerpt: "R package for calculating and visualizing time series multivariate kernal smoothing"
 header:
   teaser: assets/images/multismooth-th.png
 share: false

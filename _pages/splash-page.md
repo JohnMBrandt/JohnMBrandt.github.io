@@ -40,17 +40,25 @@ feature_row2:
     url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
   - image_path: /assets/images/visualization-th.png
     alt: "placeholder image 2"
-    title: "Data Visualization"
+    title: "Data visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnbrandt.org/portfolio/ensemble/"
-#feature_row3:
-#  - image_path: /assets/images/gisportfolio.png
-#    alt: "placeholder image 2"
-#    title: "There will be something here"
-#    excerpt: 'Placeholder'
-#    url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
-#    btn_label: "Read More"
-#    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/images/multismooth-th.png
+    alt: "placeholder image 2"
+    title: "Time series kernal smoothing"
+    excerpt: 'R package for calculating and visualizing time series multivariate kernal smoothing'
+    url: "https://johnmbrandt.github.io/portfolio/interactive-web-mapping/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row4:
+  - image_path: /assets/images/quickthoughts-1.png
+    alt: "placeholder image 2"
+    title: "Sentence embeddings"
+    excerpt: 'A review of recent advances in sentence embeddings'
+    url: "https://johnbrandt.org/blog/sentence-similarity/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 outro: 
   - excerpt: 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt).'
 ---
@@ -60,5 +68,9 @@ outro:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2"%}
+
+{% include feature_row id="feature_row3" type="left"%}
+
+{% include feature_row id="feature_row4" type = "right"%}
 
 {% include feature_row id="outro" type="center" %}
