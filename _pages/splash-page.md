@@ -11,11 +11,11 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Social impact-driven data scientist with expertise in machine learning, statistics, GIS, and natural language processing. Passionate about applying data-driven methods to drive better business and policy decisions.'
+  - excerpt: 'Hey, I'm John. I'm a Social impact-driven data scientist with expertise in machine learning, statistics, and natural language processing. I am passionate about applying data-driven methods to drive better business and policy decisions. Interested? 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt).'
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
-    title: "Modeling economic impacts of pollution with big data"
+    title: "Modeling economic impacts of pollution"
     excerpt: "Modeling 150 million geolocated credit card transactions to identify a novel multibillion-dollar economic impact of air pollution"
     url: "https://johnmbrandt.github.io/portfolio/r-big-data-modeling/"
   - image_path: /assets/images/retriever-th.png
@@ -68,9 +68,5 @@ outro:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2"%}
-
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="feature_row4" type = "right" %}
 
 {% include feature_row id="outro" type="center" %}
