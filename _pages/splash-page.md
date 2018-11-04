@@ -52,7 +52,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/quickthoughts-1.png
+  - image_path: /assets/images/blog-emb/quickthoughts-1.png
     alt: "placeholder image 2"
     title: "Sentence embeddings"
     excerpt: 'A review of recent advances in sentence embeddings'
@@ -69,8 +69,8 @@ outro:
 
 {% include feature_row id="feature_row2"%}
 
-{% include feature_row id="feature_row3" type="left"%}
+{% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row4" type = "right"%}
+{% include feature_row id="feature_row4" type = "right" %}
 
 {% include feature_row id="outro" type="center" %}
