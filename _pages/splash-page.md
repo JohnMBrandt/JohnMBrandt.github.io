@@ -11,7 +11,7 @@ header:
   cta_url: "https://johnmbrandt.github.io/about/"
 excerpt: "Master of Environmental Management Candidate, Yale University"
 intro: 
-  - excerpt: 'Hey, I'm John. I'm a Social impact-driven data scientist with expertise in machine learning, statistics, and natural language processing. I am passionate about applying data-driven methods to drive better business and policy decisions. Interested? 'View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt).'
+  - excerpt: 'Hey, I'm John. I'm a social impact-driven data scientist with expertise in machine learning, statistics, and natural language processing. I am passionate about applying data-driven methods to drive better business and policy decisions. Interested? View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt).'
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
