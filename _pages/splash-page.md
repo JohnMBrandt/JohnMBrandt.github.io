@@ -42,7 +42,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Data visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
-    url: "https://johnbrandt.org/portfolio/ensemble/"
+    url: "https://johnbrandt.org/portfolio/data-visualization/"
 #feature_row3:
 #  - image_path: /assets/images/multismooth-th.png
 #    alt: "placeholder image 2"
