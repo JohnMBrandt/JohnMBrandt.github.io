@@ -43,6 +43,22 @@ feature_row2:
     title: "Data visualization"
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnbrandt.org/portfolio/data-visualization/"
+feature_row3:
+  - image_path: /assets/images/model-formula.png
+    alt: "placeholder image 2"
+    title: "Multi-task text classification"
+    excerpt: 'Deep learning framework for jointly learning extractive summarization and multi-label text classification'
+    url: "https://johnbrandt.org/portfolio/text-classification/"
+  - image_path: /assets/images/model-structure.png
+    alt: "placeholder image 2"
+    title: "Demographic identifier"
+    excerpt: 'Computer vision and natural language processing to identify demographic differences in topic engagement'
+    url: "https://johnmbrandt.github.io/portfolio/demographic-identifier/"
+  - image_path: /assets/images/multismooth-th.png
+    alt: "placeholder image 2"
+    title: "Time series kernal smoothing"
+    excerpt: 'R package for calculating and visualizing time series multivariate kernal smoothing'
+    url: "https://johnbrandt.org/portfolio/multismooth/"
 #feature_row3:
 #  - image_path: /assets/images/multismooth-th.png
 #    alt: "placeholder image 2"
@@ -68,5 +84,7 @@ outro:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2"%}
+
+{% include feature_row id="feature_row3"%}
 
 {% include feature_row id="outro" type="center" %}
