@@ -23,10 +23,11 @@ feature_row:
     title: "Automating policy analysis"
     excerpt: "R package that automates policy analysis and identifies policy misalignment with neural embeddings"
     url: "https://johnbrandt.org/portfolio/retrieveR/"
-  - image_path: /assets/images/uesi.png
-    title: "Interactive web mapping"
-    excerpt: "An open data web portal that monitors inclusivity and equity at a neighborhood scale in 30 global cities"
-    url: "https://datadrivenyale.github.io/urban-portal"
+  - image_path: /assets/images/model-formula.png
+    alt: "placeholder image 2"
+    title: "Multi-task text classification"
+    excerpt: 'Deep learning framework for jointly learning extractive summarization and multi-label text classification'
+    url: "https://johnbrandt.org/portfolio/text-classification/"
 feature_row2:
   - image_path: /assets/images/network-2.png
     alt: "placeholder image 2"
@@ -44,16 +45,15 @@ feature_row2:
     excerpt: 'Interactive and static data visualization in R, Python, ArcMap, and JavaScript'
     url: "https://johnbrandt.org/portfolio/data-visualization/"
 feature_row3:
-  - image_path: /assets/images/model-formula.png
-    alt: "placeholder image 2"
-    title: "Multi-task text classification"
-    excerpt: 'Deep learning framework for jointly learning extractive summarization and multi-label text classification'
-    url: "https://johnbrandt.org/portfolio/text-classification/"
   - image_path: /assets/images/model-structure.png
     alt: "placeholder image 2"
     title: "Demographic identifier"
     excerpt: 'Computer vision and natural language processing to identify demographic differences in topic engagement'
     url: "https://johnmbrandt.github.io/portfolio/demographic-identifier/"
+  - image_path: /assets/images/uesi.png
+    title: "Interactive web mapping"
+    excerpt: "An open data web portal that monitors inclusivity and equity at a neighborhood scale in 30 global cities"
+    url: "https://datadrivenyale.github.io/urban-portal"
   - image_path: /assets/images/multismooth-th.png
     alt: "placeholder image 2"
     title: "Time series kernal smoothing"
