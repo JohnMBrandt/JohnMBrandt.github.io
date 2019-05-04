@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/landingheader.jpg
   cta_label: "Resumé"
   cta_url: "https://johnmbrandt.github.io/about/"
-excerpt: "Data Science Associate at World Resources Institute <br> Independent consultant;\n Yale Master's graduate"
+excerpt: "Data Science Associate at World Resources Institute <br> Independent consultant <br> Yale Master's graduate"
 intro: 
   - excerpt: "I'm a social impact-driven data scientist who is passionate about improving business and policy decisions with machine learning, data mining, and predictive analytics. Interested? View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt)."
 feature_row:
