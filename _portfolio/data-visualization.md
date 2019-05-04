@@ -1,6 +1,6 @@
 ---
 title: "Static Data Visualization"
-excerpt: "Samples of static data visualization in R."
+excerpt: "Samples of static data visualization in R"
 header:
   teaser: /assets/images/visualization-th.png
 share: false
