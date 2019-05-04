@@ -38,7 +38,7 @@ feature_row2:
     alt: "placeholder image 2"
     title: "Predictive machine learning"
     excerpt: 'Neural networks, clustering, SVM, GBM, and ridge regression to predict energy generation.'
-    url: "https://johnmbrandt.github.io/portfolio/r-modeling/"
+    url: "https://johnbrandt.org/portfolio/ensemble/"
   - image_path: /assets/images/visualization-th.png
     alt: "placeholder image 2"
     title: "Data visualization"
