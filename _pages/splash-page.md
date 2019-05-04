@@ -9,9 +9,9 @@ header:
   overlay_image: /assets/images/landingheader.jpg
   cta_label: "Resumé"
   cta_url: "https://johnmbrandt.github.io/about/"
-excerpt: "Master of Environmental Management Candidate, Yale University"
+excerpt: "Data Science Associate at World Resources Institute"
 intro: 
-  - excerpt: "I'm a social impact-driven data scientist who is passionate about improving business and policy decisions with natural language processing and predictive analytics. Interested? View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt)."
+  - excerpt: "I'm a social impact-driven data scientist who is passionate about improving business and policy decisions with machine learning, data mining, and predictive analytics. Interested? View my [portfolio](https://johnmbrandt.github.io/portfolio/), [resume](https://johnmbrandt.github.io/about/), or [LinkedIn](https://www.linkedin.com/in/johnmbrandt)."
 feature_row:
   - image_path: assets/images/d4ca.png
     alt: "placeholder image 1"
