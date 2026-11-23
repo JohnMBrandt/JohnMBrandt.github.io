@@ -10,6 +10,10 @@ sidebar:
 
 ---
 
+**Preprint:** [Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval](https://arxiv.org/abs/1908.02425), arXiv (2019).
+{: .notice--info}
+
+
 ## Overview
 
 retrieveR is a system for automating information retrieval from a corpus of documents. 

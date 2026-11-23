@@ -12,10 +12,10 @@ locale                   : "en"
 title                    : "John Brandt"
 title_separator          : "-"
 name                     : "John Brandt"
-description              : "Data Scientist and Environmentalist, current master's candidate at Yale University"
+description              : "Data scientist building AI systems for forest monitoring and ecosystem restoration at World Resources Institute"
 url                      : "https://johnbrandt.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : johnmbrandt/johnmbrandt.github.io"
+repository               : "JohnMBrandt/JohnMBrandt.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -75,18 +75,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-127985279-1
+  # The old Universal Analytics ID (UA-127985279-1) stopped collecting data in July 2023.
+  # To re-enable, create a GA4 property and add its tag via "custom" in _includes/analytics-providers/.
+  provider               : false # false (default), "google", "google-universal", "custom"
 
 
 # Site Author
 author:
   name             : "John Brandt"
   avatar           : /assets/images/avatar.jpg
-  bio              : "Social impact-driven data scientist who is passionate about driving better business and policy decisions."
-  location         : "Yale University"
-  email            : john.brandt@yale.edu
+  bio              : "I build AI systems that monitor forests and verify ecosystem restoration, from vision foundation models to global maps."
+  location         : "World Resources Institute"
+  email            : # add a current contact email to show an Email link in the sidebar
   uri              :
   bitbucket        :
   codepen          :
@@ -178,8 +178,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

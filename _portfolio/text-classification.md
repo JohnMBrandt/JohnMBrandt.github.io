@@ -9,6 +9,10 @@ sidebar:
     text: "Tensorflow, Keras"
 
 ---
+
+**Preprint:** [Imbalanced multi-label classification using multi-task learning with extractive summarization](https://arxiv.org/abs/1903.06963), arXiv (2019).
+{: .notice--info}
+
 ### Overview
 
 This architecture predicts the multilabel classification of sentences by leveraging context-specific information construed from their source documents. By employing multi-task training of an extractive summarizer and an RNN-based classifier, this architecture improves summarization and classification accuracy by 50% and 75%, respectively, relative to RNN baselines.

@@ -20,6 +20,10 @@ gallery:
     alt: "placeholder image 3"
 ---
 
+**Published:** [Ambient air pollution and consumer spending: Evidence from Spain](https://doi.org/10.1371/journal.pone.0292245), *PLoS ONE* (2024).
+{: .notice--info}
+
+
 A team of Data-Driven Yale researchers received an award in the inaugural UN Data for Climate Action Challenge, for the project that best connects climate change to other sustainable development goals. The contest, hosted by UN Global Pulse and sponsored by Western Digital, invited teams to leverage big data and data science to generate research papers, tools, and visualizations that could inform local responses to climate change.
 
 The team’s winning analysis explored air pollution’s impact on consumer spending, visualizing its results in a series of interactive maps and case studies.
