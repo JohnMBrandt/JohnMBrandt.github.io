@@ -1,14 +1,25 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+{% assign current = site.portfolio | where: "current", true | sort: "order" %}
+{% assign earlier = site.portfolio | where_exp: "item", "item.current != true" %}
+
+<h2 class="archive__subtitle">Current work</h2>
 <div class="grid__wrapper">
-  {% for post in site.portfolio %}
+  {% for post in current %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+<h2 class="archive__subtitle">Earlier projects (2017–2019)</h2>
+<div class="grid__wrapper">
+  {% for post in earlier %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>

@@ -1,0 +1,203 @@
+# Publications list, rendered by _pages/publications.md and the home page.
+# Categories: article, conference, preprint, report, dataset. Order within a category is the display order.
+# The title links to `url` if set, otherwise to https://doi.org/<doi>; with neither, it is plain text.
+# Bold your own name with **...** in authors.
+
+- title: "CHMv2: Improvements in Global Canopy Height Mapping using DINOv3"
+  authors: "**J. Brandt**, S. Yi, J. Tolan, … (12 authors)"
+  venue: "Scientific Data"
+  details: "13, 1613"
+  year: 2026
+  category: article
+  doi: "10.1038/s41597-026-07882-0"
+  featured: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.06382"
+    - label: "Dataset"
+      url: "https://doi.org/10.5281/zenodo.20628959"
+
+- title: "High-carbon primary forests as conservation targets in Ontario, Canada"
+  authors: "P. V. Potapov, S. A. Turubanova, P. A. Quinby, …, **J. Brandt**, … (9 authors)"
+  venue: "Frontiers in Forests and Global Change"
+  details: "9, 1871841"
+  year: 2026
+  category: article
+  doi: "10.3389/ffgc.2026.1871841"
+  links:
+    - label: "Dataset"
+      url: "https://doi.org/10.5281/zenodo.18565689"
+
+- title: "Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on aerial lidar"
+  authors: "J. Tolan, H. Yang, B. Nosarzewski, …, **J. Brandt**, … (16 authors)"
+  venue: "Remote Sensing of Environment"
+  details: "300, 113888"
+  year: 2024
+  category: article
+  doi: "10.1016/j.rse.2023.113888"
+  featured: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2304.07213"
+
+- title: "Ambient air pollution and consumer spending: Evidence from Spain"
+  authors: "**J. Brandt**, N. Goyal, M. Moroney, S. Janaskie, A. Hsu"
+  venue: "PLoS ONE"
+  details: "19, e0292245"
+  year: 2024
+  category: article
+  doi: "10.1371/journal.pone.0292245"
+
+- title: "Wall-to-wall mapping of tree extent in the tropics with Sentinel-1 and Sentinel-2"
+  authors: "**J. Brandt**, J. Ertel, J. Spore, F. Stolle"
+  venue: "Remote Sensing of Environment"
+  details: "292, 113574"
+  year: 2023
+  category: article
+  doi: "10.1016/j.rse.2023.113574"
+  featured: true
+
+- title: "A global method to identify trees outside of closed-canopy forests with medium-resolution satellite imagery"
+  authors: "**J. Brandt**, F. Stolle"
+  venue: "International Journal of Remote Sensing"
+  details: "42, 1713–1737"
+  year: 2020
+  category: article
+  doi: "10.1080/01431161.2020.1841324"
+
+- title: "The untapped potential of mining news media events for understanding environmental change"
+  authors: "K. C. Buckingham, **J. Brandt**, W. Anderson, L. F. do Amaral, R. Singh"
+  venue: "Current Opinion in Environmental Sustainability"
+  details: "45, 92–99"
+  year: 2020
+  category: article
+  doi: "10.1016/j.cosust.2020.08.015"
+
+- title: "The rise of big data and supporting technologies in keeping watch on the world's forests"
+  authors: "R. Taylor, C. Davis, **J. Brandt**, M. Parker, T. Stäuble, Z. Said"
+  venue: "International Forestry Review"
+  details: "22, 129–141"
+  year: 2020
+  category: article
+  doi: "10.1505/146554820829523880"
+
+- title: "Identifying social media user demographics and topic diversity with computational social science: a case study of a major international policy forum"
+  authors: "**J. Brandt**, K. C. Buckingham, C. Buntain, W. Anderson, S. Ray, J. Pool, N. Ferrari"
+  venue: "Journal of Computational Social Science"
+  details: "3, 167–188"
+  year: 2020
+  category: article
+  doi: "10.1007/s42001-019-00061-9"
+
+- title: "Exploring links between national climate strategies and non-state and subnational climate action in nationally determined contributions (NDCs)"
+  authors: "A. Hsu, **J. Brandt**, O. E. Widerberg, S. Chan, A. J. Weinfurter"
+  venue: "Climate Policy"
+  details: "20, 443–457"
+  year: 2019
+  category: article
+  doi: "10.1080/14693062.2019.1624252"
+
+- title: "MillionTrees: A global benchmark for tree detection across geography, sensor, and annotation geometry"
+  authors: "B. G. Weinstein, J. Veitch-Michaelis, M. J. Allen, …, **J. Brandt**, … (59 authors)"
+  venue: "bioRxiv"
+  year: 2026
+  category: preprint
+  doi: "10.64898/2026.10.30.762845"
+
+- title: "3Dtrees.earth: community research infrastructure for tree and forest analysis using close-range LiDAR data"
+  authors: "J. Vajna-Jehle, K. Gerberding, D. Lusk, …, **J. Brandt**, … (278 authors)"
+  venue: "arXiv"
+  year: 2026
+  category: preprint
+  doi: "10.48550/arxiv.2610.37803"
+
+- title: "Sub-pixel mapping of disturbance and tree mortality dynamics from Sentinel-2 time series around the globe"
+  authors: "C. Mosig, T. Kattenborn, D. M. Loaiza, …, **J. Brandt**, … (29 authors)"
+  venue: "EarthArXiv"
+  year: 2026
+  category: preprint
+  doi: "10.31223/x5b18w"
+
+- title: "An African Tree Crown–Stem Allometry Dataset for Monitoring Trees Outside Forests and Landscape Restoration"
+  authors: "T. A. Alimo, D. L. Skole, J. H. Samek, …, **J. Brandt**, … (12 authors)"
+  venue: "Earth System Science Data Discussions"
+  year: 2026
+  category: preprint
+  doi: "10.5194/essd-2026-756"
+  links:
+    - label: "Dataset"
+      url: "https://doi.org/10.5281/zenodo.20862468"
+
+- title: "DINOv3"
+  authors: "O. Siméoni, H. V. Vo, M. Seitzer, …, **J. Brandt**, … (26 authors)"
+  venue: "arXiv"
+  details: "2508.10104"
+  year: 2025
+  category: preprint
+  doi: "10.48550/arxiv.2508.10104"
+  featured: true
+  links:
+    - label: "Code"
+      url: "https://github.com/facebookresearch/dinov3"
+
+- title: "Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval"
+  authors: "**J. Brandt**"
+  venue: "KDD Workshop on Fragile Earth (FEED)"
+  year: 2019
+  category: conference
+  doi: "10.48550/arxiv.1908.02425"
+
+- title: "Spatio-temporal crop classification of low-resolution satellite imagery with capsule layers and distributed attention"
+  authors: "**J. Brandt**"
+  venue: "arXiv"
+  year: 2019
+  category: preprint
+  doi: "10.48550/arxiv.1904.10130"
+
+- title: "Imbalanced multi-label classification using multi-task learning with extractive summarization"
+  authors: "**J. Brandt**"
+  venue: "arXiv"
+  year: 2019
+  category: preprint
+  doi: "10.48550/arxiv.1903.06963"
+
+- title: "Land Restoration From Planting to Proof: A Guide to Monitoring, Reporting, and Verification"
+  authors: "V. Snyder, T. Coger, D. Martin, …, **J. Brandt**, … (21 authors)"
+  venue: "World Resources Institute, Guidebook"
+  year: 2026
+  category: report
+  doi: "10.46830/wrigb.24.00067"
+
+- title: "Transfer Learning To Detect Natural, Monoculture, and Agroforestry Tree-Based Systems in Ghana Using Remote Sensing"
+  authors: "J. Ertel, **J. Brandt**, R. L. Rognstad, E. Glen"
+  venue: "World Resources Institute, Technical Note"
+  year: 2025
+  category: report
+  doi: "10.46830/writn.24.00030"
+
+- title: "The Challenge of Tracking How a Trillion Trees Grow"
+  authors: "K. Reytar, F. Landsberg, F. Stolle, D. Martin, W. Anderson, **J. Brandt**"
+  venue: "World Resources Institute, Insights"
+  year: 2020
+  category: report
+  url: "https://www.wri.org/insights/challenge-tracking-how-trillion-trees-grow"
+
+- title: "The Road to Restoration: A Guide to Identifying Priorities and Indicators for Monitoring Forest and Landscape Restoration"
+  authors: "K. Buckingham, S. Ray, C. Gallo Granizo, …, **J. Brandt** (12 authors)"
+  venue: "World Resources Institute and FAO"
+  year: 2019
+  category: report
+  url: "https://www.wri.org/research/road-restoration"
+
+- title: "The Urban Environment and Social Inclusion Index"
+  authors: "A. Hsu, **J. Brandt**, S. Comess, M. Moroney, T. Huang, D. Manya, S. Janaskie, …"
+  venue: "Data-Driven Yale"
+  year: 2018
+  category: report
+
+- title: "Colombia Woody Vegetation Structure and Change (WVSC), 2010-2024"
+  authors: "P. V. Potapov, **J. Brandt**, X. Li, S. A. Turubanova, F. Stolle, N. L. Harris"
+  venue: "Zenodo"
+  year: 2026
+  category: dataset
+  doi: "10.5281/zenodo.18154840"

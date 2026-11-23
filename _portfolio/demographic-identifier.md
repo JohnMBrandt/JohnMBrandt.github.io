@@ -10,6 +10,10 @@ sidebar:
 
 ---
 
+**Published:** [Identifying social media user demographics and topic diversity with computational social science](https://doi.org/10.1007/s42001-019-00061-9), *Journal of Computational Social Science* (2020).
+{: .notice--info}
+
+
 ## Overview 
 
 Ever wondered how to engage more diversity in communications? This toolkit identifies gender, age and ethnic communities on Twitter with computer vision and analyzes what makes a message inclusive using neural sentence embeddings.

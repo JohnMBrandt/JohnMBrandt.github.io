@@ -10,6 +10,10 @@ sidebar:
 
 ---
 
+**Published:** [Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval](https://arxiv.org/abs/1908.02425), KDD Workshop on Fragile Earth (FEED), 2019.
+{: .notice--info}
+
+
 ## Overview
 
 retrieveR is a system for automating information retrieval from a corpus of documents. 
