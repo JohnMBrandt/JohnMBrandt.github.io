@@ -10,7 +10,7 @@ sidebar:
 
 ---
 
-**Preprint:** [Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval](https://arxiv.org/abs/1908.02425), arXiv (2019).
+**Published:** [Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval](https://arxiv.org/abs/1908.02425), KDD Workshop on Fragile Earth (FEED), 2019.
 {: .notice--info}
 
 

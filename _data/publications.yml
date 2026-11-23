@@ -1,5 +1,6 @@
 # Publications list, rendered by _pages/publications.md and the home page.
-# Categories: article, preprint, report, dataset. Set featured: true to show on the home page.
+# Categories: article, conference, preprint, report, dataset. Order within a category is the display order.
+# The title links to `url` if set, otherwise to https://doi.org/<doi>; with neither, it is plain text.
 # Bold your own name with **...** in authors.
 
 - title: "CHMv2: Improvements in Global Canopy Height Mapping using DINOv3"
@@ -15,19 +16,6 @@
       url: "https://arxiv.org/abs/2603.06382"
     - label: "Dataset"
       url: "https://doi.org/10.5281/zenodo.20628959"
-
-- title: "DINOv3"
-  authors: "O. Siméoni, H. V. Vo, M. Seitzer, …, **J. Brandt**, … (26 authors)"
-  venue: "Transactions on Machine Learning Research"
-  year: 2026
-  category: article
-  doi: "10.48550/arxiv.2508.10104"
-  featured: true
-  links:
-    - label: "OpenReview"
-      url: "https://openreview.net/forum?id=2NlGyqNjns"
-    - label: "Code"
-      url: "https://github.com/facebookresearch/dinov3"
 
 - title: "High-carbon primary forests as conservation targets in Ontario, Canada"
   authors: "P. V. Potapov, S. A. Turubanova, P. A. Quinby, …, **J. Brandt**, … (9 authors)"
@@ -48,6 +36,9 @@
   category: article
   doi: "10.1016/j.rse.2023.113888"
   featured: true
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2304.07213"
 
 - title: "Ambient air pollution and consumer spending: Evidence from Spain"
   authors: "**J. Brandt**, N. Goyal, M. Moroney, S. Janaskie, A. Hsu"
@@ -81,6 +72,14 @@
   year: 2020
   category: article
   doi: "10.1016/j.cosust.2020.08.015"
+
+- title: "The rise of big data and supporting technologies in keeping watch on the world's forests"
+  authors: "R. Taylor, C. Davis, **J. Brandt**, M. Parker, T. Stäuble, Z. Said"
+  venue: "International Forestry Review"
+  details: "22, 129–141"
+  year: 2020
+  category: article
+  doi: "10.1505/146554820829523880"
 
 - title: "Identifying social media user demographics and topic diversity with computational social science: a case study of a major international policy forum"
   authors: "**J. Brandt**, K. C. Buckingham, C. Buntain, W. Anderson, S. Ray, J. Pool, N. Ferrari"
@@ -129,11 +128,23 @@
     - label: "Dataset"
       url: "https://doi.org/10.5281/zenodo.20862468"
 
+- title: "DINOv3"
+  authors: "O. Siméoni, H. V. Vo, M. Seitzer, …, **J. Brandt**, … (26 authors)"
+  venue: "arXiv"
+  details: "2508.10104"
+  year: 2025
+  category: preprint
+  doi: "10.48550/arxiv.2508.10104"
+  featured: true
+  links:
+    - label: "Code"
+      url: "https://github.com/facebookresearch/dinov3"
+
 - title: "Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval"
   authors: "**J. Brandt**"
-  venue: "arXiv"
+  venue: "KDD Workshop on Fragile Earth (FEED)"
   year: 2019
-  category: preprint
+  category: conference
   doi: "10.48550/arxiv.1908.02425"
 
 - title: "Spatio-temporal crop classification of low-resolution satellite imagery with capsule layers and distributed attention"
@@ -163,6 +174,26 @@
   year: 2025
   category: report
   doi: "10.46830/writn.24.00030"
+
+- title: "The Challenge of Tracking How a Trillion Trees Grow"
+  authors: "K. Reytar, F. Landsberg, F. Stolle, D. Martin, W. Anderson, **J. Brandt**"
+  venue: "World Resources Institute, Insights"
+  year: 2020
+  category: report
+  url: "https://www.wri.org/insights/challenge-tracking-how-trillion-trees-grow"
+
+- title: "The Road to Restoration: A Guide to Identifying Priorities and Indicators for Monitoring Forest and Landscape Restoration"
+  authors: "K. Buckingham, S. Ray, C. Gallo Granizo, …, **J. Brandt** (12 authors)"
+  venue: "World Resources Institute and FAO"
+  year: 2019
+  category: report
+  url: "https://www.wri.org/research/road-restoration"
+
+- title: "The Urban Environment and Social Inclusion Index"
+  authors: "A. Hsu, **J. Brandt**, S. Comess, M. Moroney, T. Huang, D. Manya, S. Janaskie, …"
+  venue: "Data-Driven Yale"
+  year: 2018
+  category: report
 
 - title: "Colombia Woody Vegetation Structure and Change (WVSC), 2010-2024"
   authors: "P. V. Potapov, **J. Brandt**, X. Li, S. A. Turubanova, F. Stolle, N. L. Harris"

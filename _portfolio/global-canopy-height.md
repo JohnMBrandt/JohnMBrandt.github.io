@@ -28,11 +28,11 @@ CHMv2 is a global canopy height map at 1-meter resolution, produced with a depth
 
 The first version produced sub-meter canopy height maps for the states of California and São Paulo, a large improvement over the 10-meter resolution of earlier Sentinel and GEDI based global maps. Features from a self-supervised model trained on Maxar imagery feed a dense prediction decoder trained against aerial lidar, with a post-processing step trained on GEDI observations.
 
-- Paper: [*Remote Sensing of Environment* 300, 113888 (2024)](https://doi.org/10.1016/j.rse.2023.113888)
+- Paper: [*Remote Sensing of Environment* 300, 113888 (2024)](https://doi.org/10.1016/j.rse.2023.113888) · [arXiv](https://arxiv.org/abs/2304.07213)
 
-## DINOv3 (2026)
+## DINOv3 (2025)
 
 DINOv3 is a self-supervised vision foundation model that produces high-quality dense features without fine-tuning, and is the backbone for CHMv2.
 
-- Paper: [*Transactions on Machine Learning Research* (2026)](https://openreview.net/forum?id=2NlGyqNjns) · [arXiv](https://arxiv.org/abs/2508.10104)
+- Paper: [arXiv 2508.10104 (2025)](https://arxiv.org/abs/2508.10104)
 - Code: [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3)
