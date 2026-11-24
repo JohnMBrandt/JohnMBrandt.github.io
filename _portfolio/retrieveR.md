@@ -1,4 +1,5 @@
 ---
+group: cv-nlp
 title: "Automating policy analysis"
 excerpt: "R package for neural information retrieval to automate policy summarization and analysis"
 header:

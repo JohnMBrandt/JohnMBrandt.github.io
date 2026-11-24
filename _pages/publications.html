@@ -36,6 +36,7 @@ excerpt: "Peer-reviewed articles, preprints, reports, and datasets on forest mon
           <em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}
           {% for l in p.links %}<span class="pub__sep">·</span><a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
         </div>
+        {% if p.role %}<div class="pub__role"><strong>My role:</strong> {{ p.role }}</div>{% endif %}
       </div>
     </li>
     {% endfor %}

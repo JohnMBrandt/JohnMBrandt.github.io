@@ -8,7 +8,9 @@ author_profile: true
 {% include base_path %}
 
 {% assign current = site.portfolio | where: "current", true | sort: "order" %}
-{% assign earlier = site.portfolio | where_exp: "item", "item.current != true" %}
+{% assign cvnlp = site.portfolio | where: "group", "cv-nlp" %}
+{% assign cvnlp_posts = site.blog | where: "group", "cv-nlp" %}
+{% assign other = site.portfolio | where_exp: "item", "item.current != true" | where_exp: "item", "item.group != 'cv-nlp'" %}
 
 <h2 class="archive__subtitle">Current work</h2>
 <div class="grid__wrapper">
@@ -17,9 +19,20 @@ author_profile: true
   {% endfor %}
 </div>
 
-<h2 class="archive__subtitle">Earlier projects (2017–2019)</h2>
+<h2 class="archive__subtitle">Before LLMs: computer vision and NLP (2017–2020)</h2>
+<p>Word and sentence embeddings, neural information retrieval, and multi-task text classification. In 2019 I was also a contract machine learning engineer at Google, building Kubeflow pipelines for distributed training and deployment of BERT and ResNet.</p>
 <div class="grid__wrapper">
-  {% for post in earlier %}
+  {% for post in cvnlp %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+  {% for post in cvnlp_posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+<h2 class="archive__subtitle">Other earlier projects (2017–2019)</h2>
+<div class="grid__wrapper">
+  {% for post in other %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>

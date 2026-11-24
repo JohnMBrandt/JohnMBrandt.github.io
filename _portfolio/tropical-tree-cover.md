@@ -4,6 +4,8 @@ excerpt: "A 10-meter map of trees across 4.35 billion hectares of the tropics, i
 current: true
 order: 2
 share: false
+header:
+  teaser: /assets/images/card-tree-cover.jpg
 sidebar:
   - title: "Role"
     text: "Lead author"
@@ -14,6 +16,11 @@ sidebar:
 ## Overview
 
 Satellite assessments of tree cover inform land use planning from global to local scales, but there is still considerable uncertainty about where trees are in drylands and in places used for something other than forestry. Scattered trees outside closed-canopy forests matter for carbon sequestration, livelihoods, ecosystem integrity, and climate adaptation, yet they are hard to detect with medium-resolution satellites because individual trees are often smaller than a pixel.
+
+<figure>
+  <img src="{{ '/assets/images/fig-tree-cover.jpg' | relative_url }}" alt="Side by side: a Sentinel-2 image of farmland near Techiman, Ghana, and the same area as a 10-meter tree cover map">
+  <figcaption>Farms, villages, and riparian forest near Techiman, Ghana. Left: Copernicus Sentinel-2, January 2020. Right: tree cover in 2020 at 10&nbsp;m, in four classes from light green (36–52% cover) to dark green (over 84%); 36% or less is left blank. Scattered trees on farms and narrow strips of forest along streams are mapped, not just closed forest.</figcaption>
+</figure>
 
 ## Wall-to-wall mapping of tree extent in the tropics (2023)
 

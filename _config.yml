@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "John Brandt"
 title_separator          : "-"
 name                     : "John Brandt"
-description              : "Data scientist building AI systems for forest monitoring and ecosystem restoration at World Resources Institute"
+description              : "Data scientist building large-scale vision models for forest monitoring and ecosystem restoration at World Resources Institute"
 url                      : "https://johnbrandt.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JohnMBrandt/JohnMBrandt.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "John Brandt"
   avatar           : /assets/images/avatar.jpg
-  bio              : "I build AI systems that monitor forests and verify ecosystem restoration, from vision foundation models to global maps."
+  bio              : "I build large-scale vision models that recreate the 3D structure of Earth's surface, and apply them to forests and restoration."
   location         : "World Resources Institute"
   email            : # add a current contact email to show an Email link in the sidebar
   uri              :
