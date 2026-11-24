@@ -12,12 +12,13 @@ locale                   : "en"
 title                    : "John Brandt"
 title_separator          : "-"
 name                     : "John Brandt"
-description              : "Data scientist building AI systems for forest monitoring and ecosystem restoration at World Resources Institute"
+description              : "Data scientist building large-scale vision models for forest monitoring and ecosystem restoration at World Resources Institute"
 url                      : "https://johnbrandt.org"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # empty for a user site on a custom domain; must be set so github-metadata does not guess one
 repository               : "JohnMBrandt/JohnMBrandt.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
+search_full_content      : true # search page indexes full page text, not just excerpts
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -65,7 +66,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/home-banner.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -84,7 +85,7 @@ analytics:
 author:
   name             : "John Brandt"
   avatar           : /assets/images/avatar.jpg
-  bio              : "I build AI systems that monitor forests and verify ecosystem restoration, from vision foundation models to global maps."
+  bio              : "I build large-scale vision models that recreate the 3D structure of Earth's surface, and apply them to forests and restoration."
   location         : "World Resources Institute"
   email            : # add a current contact email to show an Email link in the sidebar
   uri              :
@@ -111,6 +112,20 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/johnmbrandt"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/johnmbrandt"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=U36sqs0AAAAJ"
 
 
 # Reading Files
@@ -190,9 +205,11 @@ plugins:
   - jemoji
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -236,7 +253,7 @@ compress_html:
   ignore:
     envs: development
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 # Collections
 collections:
@@ -255,8 +272,6 @@ defaults:
       type: posts
     values:
       layout: splash
-      sidebar: 
-        nav: "sidebar-sample"
       author_profile: true
       read_time: true
       comments: # true

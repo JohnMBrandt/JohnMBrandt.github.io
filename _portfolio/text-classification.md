@@ -1,4 +1,5 @@
 ---
+group: cv-nlp
 title: "Multi-task text classification"
 excerpt: "Deep learning framework for jointly learning extractive summarization and multi-label text classification"
 header:

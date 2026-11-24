@@ -1,8 +1,15 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
+
+// Site type scale (smaller than the theme default of 16/18/20/22 px), kept from the 2018 customisation
+$doc-font-size: 14px;
+$doc-font-size-medium: 17px;
+$doc-font-size-large: 18px;
+$doc-font-size-x-large: 20px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -16,3 +23,26 @@
 .pub__authors, .pub__venue { font-size: 0.85em; }
 .pub__venue { color: $muted-text-color; }
 .pub__sep { margin: 0 0.4em; }
+.pub__role { font-size: 0.85em; margin-top: 0.2em; }
+
+/* Home page research themes */
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(14em, 1fr)); gap: 1.5em 2em; margin: 0 0 2em; padding-bottom: 2em; border-bottom: 1px solid $border-color; }
+.theme { border-top: 3px solid $text-color; padding-top: 0.75em; }
+.theme__title { margin: 0 0 0.5em; font-size: $type-size-5; }
+.theme p { font-size: $type-size-6; margin: 0; }
+
+/* Contain floated grid items so the next heading starts below them */
+.grid__wrapper::after { content: ""; display: table; clear: both; }
+
+/* Home banner credit */
+.page__hero-caption { font-family: $sans-serif; font-size: $type-size-7; opacity: 0.85; }
+
+/* Project page figures */
+.page__content figure img { border-radius: 4px; }
+
+/* Selected publications on the home page */
+.pub-list--home { max-width: 52em; margin: 0 auto 0.5em; }
+.pub-more { max-width: 52em; margin: 0 auto 2em; text-align: right; font-size: $type-size-6; }
+
+/* Only h1-h3 are bold (kept from the 2018 customisation) */
+h4, h5, h6 { font-weight: normal; }

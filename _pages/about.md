@@ -6,9 +6,17 @@ author_profile: true
 excerpt: "Data science lead for restoration at World Resources Institute."
 ---
 
-I lead research and deployment of AI systems for monitoring land conservation and verifying ecosystem restoration at the [World Resources Institute](https://www.wri.org). My work spans vision foundation models, global maps of tree cover and canopy height, and the infrastructure that takes these models from training to production. The forest monitoring models my team builds are used by more than 30 governments and companies to monitor international treaties and policies.
+I build large-scale vision models that recreate the 3D structure of Earth's surface from satellite imagery, and I apply them to monitoring forests and verifying ecosystem restoration at the [World Resources Institute](https://www.wri.org), where I lead data science for restoration.
 
-See my [publications](/publications/) and [projects](/portfolio/).
+## Research
+
+**Vision models for 3D structure.** Much of my work is lidar problems: training depth and canopy height models on vision foundation model features against airborne lidar, then checking them against spaceborne lidar, so that tree height and structure can be mapped anywhere from optical imagery. For [DINOv3](https://arxiv.org/abs/2508.10104) I worked on the satellite adaptation, ablations, and paper writing. For [CHMv2](/portfolio/global-canopy-height/) I led model design, loss design, and evaluation.
+
+**Training and evaluation.** I spend a lot of time inside model training and post-training: measuring gradient alignment between loss terms, evaluating loss terms with ablations, and setting up evaluation harnesses that tell us whether a change actually helps.
+
+**Applied at scale.** The forest monitoring models my team builds are used by more than 30 governments and companies to monitor international treaties and policies. I also architect the infrastructure that takes these models from training to production.
+
+**Before LLMs.** From 2017 to 2020 I worked on computer vision and NLP: word and sentence embeddings, neural information retrieval, and multi-task text classification. In 2019 I was a contract machine learning engineer at Google, building Kubeflow pipelines for distributed training and deployment of BERT and ResNet. See [earlier projects](/portfolio/).
 
 ## Experience
 
@@ -39,6 +47,12 @@ See my [publications](/publications/) and [projects](/portfolio/).
 - Built data procurement, processing, and visualization pipelines to merge, clean, transform, and identify relationships in unstructured data including social media, websites, documents, and images with R and Python
 - Authored an R package for text analysis with neural information retrieval, text classification, and automated report generation
 
+### Google
+
+**Machine Learning Engineer (contract)** · 2019
+
+- Worked on Kubeflow, engineering production-grade pipelines for distributed training and deployment of BERT and ResNet
+
 ### Data Driven Yale
 
 **Research Assistant** · Sep 2017 – 2019
@@ -54,7 +68,9 @@ See my [publications](/publications/) and [projects](/portfolio/).
 
 ## Skills
 
-- **Machine learning:** PyTorch, TensorFlow, vision foundation models, vision-language models, large language models, object detection (mmdetection)
-- **Infrastructure:** Triton Inference Server, AWS, Docker, CI/CD with GitHub
-- **Remote sensing:** Sentinel-1 and Sentinel-2, very high resolution satellite imagery, airborne lidar
+- **Machine learning:** PyTorch, TensorFlow, vision foundation models, depth and dense prediction, vision-language models, large language models, object detection (mmdetection)
+- **Training and evaluation:** gradient alignment between loss terms, loss design and ablations, evaluation harnesses, post-training
+- **NLP:** word and sentence embeddings, neural information retrieval, BERT, multi-task text classification
+- **Infrastructure:** Triton Inference Server, Kubeflow, AWS, Docker, CI/CD with GitHub
+- **Remote sensing:** airborne and spaceborne lidar (GEDI, ICESat-2), Sentinel-1 and Sentinel-2, very high resolution satellite imagery
 - **Languages:** Python, R, SQL, Bash, JavaScript

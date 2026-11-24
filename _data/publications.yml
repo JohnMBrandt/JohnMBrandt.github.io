@@ -2,6 +2,7 @@
 # Categories: article, conference, preprint, report, dataset. Order within a category is the display order.
 # The title links to `url` if set, otherwise to https://doi.org/<doi>; with neither, it is plain text.
 # Bold your own name with **...** in authors.
+# Optional `role` is shown as "My role: ..." under the entry. Use it where author order doesn't say enough.
 
 - title: "CHMv2: Improvements in Global Canopy Height Mapping using DINOv3"
   authors: "**J. Brandt**, S. Yi, J. Tolan, … (12 authors)"
@@ -11,11 +12,27 @@
   category: article
   doi: "10.1038/s41597-026-07882-0"
   featured: true
+  role: "Lead on model design, loss design, and evaluation"
   links:
     - label: "arXiv"
       url: "https://arxiv.org/abs/2603.06382"
     - label: "Dataset"
       url: "https://doi.org/10.5281/zenodo.20628959"
+
+- title: "DINOv3"
+  authors: "O. Siméoni, H. V. Vo, M. Seitzer, …, **J. Brandt**, … (26 authors)"
+  venue: "Transactions on Machine Learning Research"
+  details: "Featured Certification"
+  year: 2026
+  category: article
+  url: "https://openreview.net/forum?id=2NlGyqNjns"
+  featured: true
+  role: "Satellite adaptation, ablations, and paper writing"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2508.10104"
+    - label: "Code"
+      url: "https://github.com/facebookresearch/dinov3"
 
 - title: "High-carbon primary forests as conservation targets in Ontario, Canada"
   authors: "P. V. Potapov, S. A. Turubanova, P. A. Quinby, …, **J. Brandt**, … (9 authors)"
@@ -127,18 +144,6 @@
   links:
     - label: "Dataset"
       url: "https://doi.org/10.5281/zenodo.20862468"
-
-- title: "DINOv3"
-  authors: "O. Siméoni, H. V. Vo, M. Seitzer, …, **J. Brandt**, … (26 authors)"
-  venue: "arXiv"
-  details: "2508.10104"
-  year: 2025
-  category: preprint
-  doi: "10.48550/arxiv.2508.10104"
-  featured: true
-  links:
-    - label: "Code"
-      url: "https://github.com/facebookresearch/dinov3"
 
 - title: "Text mining policy: Classifying forest and landscape restoration policy agenda with neural information retrieval"
   authors: "**J. Brandt**"

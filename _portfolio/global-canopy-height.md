@@ -4,9 +4,11 @@ excerpt: "Meter-resolution maps of tree canopy height from satellite imagery, bu
 current: true
 order: 1
 share: false
+header:
+  teaser: /assets/images/card-canopy-height.jpg
 sidebar:
   - title: "Role"
-    text: "Lead author of CHMv2; co-author of DINOv3 and the 2024 canopy height paper"
+    text: "CHMv2: lead author; led model design, loss design, and evaluation. DINOv3: satellite adaptation, ablations, and paper writing. 2024 paper: co-author."
   - title: "Partners"
     text: "Meta FAIR"
   - title: "Tools"
@@ -17,9 +19,16 @@ sidebar:
 
 Canopy height is essential for quantifying forest carbon, monitoring restoration and degradation, and assessing habitat structure. But high-fidelity measurements from airborne laser scanning (ALS) are unevenly available around the world. This work estimates canopy height for individual trees directly from very high resolution optical satellite imagery, using self-supervised vision models trained against aerial lidar.
 
+<figure>
+  <img src="{{ '/assets/images/fig-canopy-height.jpg' | relative_url }}" alt="Side by side: an aerial photo of a forested island in the Adirondacks, and the same area as CHMv2 canopy height">
+  <figcaption>An island in the Adirondacks, New York. Left: aerial photo, USDA NAIP, October 2022 (public domain). Right: CHMv2 canopy height at 1&nbsp;m (CC BY 4.0), shaded so individual crowns stand out. Navy is water and open ground; yellow is the tallest canopy, about 25&nbsp;m here.</figcaption>
+</figure>
+
 ## CHMv2: a global, meter-resolution canopy height map (2026)
 
 CHMv2 is a global canopy height map at 1-meter resolution, produced with a depth-estimation model built on DINOv3 and trained against ALS canopy height models. Compared to existing products, it is more accurate, less biased in tall forests, and better at preserving fine-scale structure such as canopy edges and gaps. The gains come from a large expansion of geographically diverse training data, automated data curation and registration, and a loss function and sampling strategy tailored to canopy height distributions. The map is validated against independent ALS test sets and tens of millions of GEDI and ICESat-2 observations.
+
+**My role:** lead author; led model design, loss design, and evaluation.
 
 - Paper: [*Scientific Data* 13, 1613 (2026)](https://doi.org/10.1038/s41597-026-07882-0) · [arXiv](https://arxiv.org/abs/2603.06382)
 - Data: [CHMv2 on Zenodo](https://doi.org/10.5281/zenodo.20628959)
@@ -30,9 +39,11 @@ The first version produced sub-meter canopy height maps for the states of Califo
 
 - Paper: [*Remote Sensing of Environment* 300, 113888 (2024)](https://doi.org/10.1016/j.rse.2023.113888) · [arXiv](https://arxiv.org/abs/2304.07213)
 
-## DINOv3 (2025)
+## DINOv3 (2026)
 
 DINOv3 is a self-supervised vision foundation model that produces high-quality dense features without fine-tuning, and is the backbone for CHMv2.
 
-- Paper: [arXiv 2508.10104 (2025)](https://arxiv.org/abs/2508.10104)
+**My role:** adapting DINOv3 to satellite imagery, running ablations, and writing the paper.
+
+- Paper: [*Transactions on Machine Learning Research* (2026), Featured Certification](https://openreview.net/forum?id=2NlGyqNjns) · [arXiv](https://arxiv.org/abs/2508.10104)
 - Code: [facebookresearch/dinov3](https://github.com/facebookresearch/dinov3)

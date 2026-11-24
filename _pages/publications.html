@@ -20,25 +20,7 @@ excerpt: "Peer-reviewed articles, preprints, reports, and datasets on forest mon
   {% if items.size > 0 %}
   <h2 id="{{ parts[0] }}">{{ parts[1] }}</h2>
   <ul class="pub-list">
-    {% for p in items %}
-    <li class="pub">
-      <span class="pub__year">{{ p.year }}</span>
-      <div class="pub__body">
-        {% if p.url %}
-          <a class="pub__title" href="{{ p.url }}">{{ p.title }}</a>
-        {% elsif p.doi %}
-          <a class="pub__title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>
-        {% else %}
-          <span class="pub__title">{{ p.title }}</span>
-        {% endif %}
-        <div class="pub__authors">{{ p.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
-        <div class="pub__venue">
-          <em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}
-          {% for l in p.links %}<span class="pub__sep">·</span><a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
-        </div>
-      </div>
-    </li>
-    {% endfor %}
+    {% for p in items %}{% include pub-item.html pub=p %}{% endfor %}
   </ul>
   {% endif %}
 {% endfor %}
