@@ -1,4 +1,5 @@
 ---
+mathjax: true
 group: cv-nlp
 title: "Sentence embeddings"
 excerpt: "Review of recent advances in sentence embeddings"

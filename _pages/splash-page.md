@@ -7,8 +7,9 @@ header:
   overlay_filter: "0.35"
   overlay_image: /assets/images/home-banner.jpg
   caption: "Adirondacks, New York: NAIP aerial photo into CHMv2 canopy height"
-  cta_label: "Publications"
-  cta_url: "/publications/"
+  actions:
+    - label: "Publications"
+      url: "/publications/"
 excerpt: "Data Science Lead, Restoration at World Resources Institute <br> Large-scale vision models for the 3D structure of Earth's surface"
 intro:
   - excerpt: "I build large-scale vision models that recreate the 3D structure of Earth's surface from satellite imagery, and I put them to work monitoring forests and verifying ecosystem restoration. A lot of that comes down to lidar problems: training models against airborne lidar, checking them against spaceborne lidar, and mapping tree height and structure anywhere from optical imagery. See my [publications](/publications/), [projects](/portfolio/), or [CV](/about/)."
@@ -37,6 +38,8 @@ feature_row:
     title: "Restoration monitoring and verification"
     excerpt: "Satellite imagery, AI, and field data for credible monitoring, reporting, and verification of land restoration at scale."
     url: "/portfolio/restoration-monitoring/"
+selected_header:
+  - excerpt: "**Selected publications**"
 earlier_header:
   - excerpt: "**Before LLMs: computer vision and NLP, 2017–2020**"
 feature_row2:
@@ -65,6 +68,14 @@ outro:
 {% include feature_row id="current_header" type="center" %}
 
 {% include feature_row %}
+
+{% include feature_row id="selected_header" type="center" %}
+
+<ul class="pub-list pub-list--home">
+  {% assign featured = site.data.publications | where: "featured", true %}
+  {% for p in featured %}{% include pub-item.html pub=p %}{% endfor %}
+</ul>
+<p class="pub-more"><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
 
 {% include feature_row id="earlier_header" type="center" %}
 

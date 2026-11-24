@@ -1,8 +1,15 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
+
+// Site type scale (smaller than the theme default of 16/18/20/22 px), kept from the 2018 customisation
+$doc-font-size: 14px;
+$doc-font-size-medium: 17px;
+$doc-font-size-large: 18px;
+$doc-font-size-x-large: 20px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -32,3 +39,10 @@
 
 /* Project page figures */
 .page__content figure img { border-radius: 4px; }
+
+/* Selected publications on the home page */
+.pub-list--home { max-width: 52em; margin: 0 auto 0.5em; }
+.pub-more { max-width: 52em; margin: 0 auto 2em; text-align: right; font-size: $type-size-6; }
+
+/* Only h1-h3 are bold (kept from the 2018 customisation) */
+h4, h5, h6 { font-weight: normal; }
